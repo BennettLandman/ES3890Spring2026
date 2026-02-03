@@ -1,5 +1,5 @@
 # ES3890Spring2026
-DemontrationProject
+DemonstrationProject
 
 # Newsletter to Podcast
 
