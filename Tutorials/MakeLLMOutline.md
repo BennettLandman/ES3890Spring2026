@@ -1,6 +1,6 @@
 # Repeatable workflow to generate an LLM newsletter outline on ACCRE
 
-This is a cleaned up walkthrough of my key steps. 
+This is a cleaned up walkthrough of my key steps. I am using the model at https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct (be sure to register for access)
 
 ## 1 Connect to the GPU node you are allocated
 

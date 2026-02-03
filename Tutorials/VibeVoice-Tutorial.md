@@ -17,7 +17,7 @@ This tutorial shows how to set up Microsoft’s VibeVoice and generate speech fr
 
 <pre class="overflow-visible! px-0!" data-start="706" data-end="782"><div class="contain-inline-size rounded-2xl corner-superellipse/1.1 relative bg-token-sidebar-surface-primary"><div class="sticky top-[calc(var(--sticky-padding-top)+9*var(--spacing))]"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>ssh your_server.domain.edu
 </span><span>cd</span><span> /tmp
-</span><span>mkdir</span><span> landmaba && </span><span>cd</span><span> landmaba
+</span><span>mkdir</span><span> <VUID> && </span><span>cd</span><span> <VUID>
 </span></span></code></div></div></pre>
 
 ### 2. Create Python Virtual Environment
