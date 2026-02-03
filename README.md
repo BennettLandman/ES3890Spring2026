@@ -20,7 +20,7 @@ The podcast should feature an engaging, conversational format (for example, two 
 | Identify tags / theme                                                    | 2          | 3    |
 | Set up a conversational structure                                        | 3          | 4    |
 | Select voices                                                            | 5          | 5    |
-| Text-to-voice generation (two voices)                                    | 4          | 5    |
+| [Text-to-voice generation (two voices)](https://github.com/BennettLandman/ES3890Spring2026/blob/main/Tutorials/VibeVoice-Tutorial.md)                                    | 4          | 5    |
 | Stitch audio segments together                                           | 4          | 3    |
 | Add music                                                                | 5          | 5    |
 | Publish / distribute                                                     | 4          | 2    |
