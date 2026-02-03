@@ -16,7 +16,7 @@ The podcast should feature an engaging, conversational format (for example, two 
 | ------------------------------------------------------------------------ | ---------- | ---- |
 | GUI (graphical) / TUI (text) / BUI (“bennett”) interface for interaction | 3–5        | 1    |
 | Data ingestion                                                           | 2          | 2    |
-| Generate an outline                                                      | 2          | 3    |
+| [Generate an outline](https://github.com/BennettLandman/ES3890Spring2026/blob/main/Tutorials/MakeLLMOutline.md)                                                      | 2          | 3    |
 | Identify tags / theme                                                    | 2          | 3    |
 | Set up a conversational structure                                        | 3          | 4    |
 | Select voices                                                            | 5          | 5    |
