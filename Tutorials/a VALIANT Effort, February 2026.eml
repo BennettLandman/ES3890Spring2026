@@ -1,0 +1,3042 @@
+Received: from CO1PR08MB7562.namprd08.prod.outlook.com (2603:10b6:303:161::19)
+ by DM5PR0801MB3784.namprd08.prod.outlook.com with HTTPS; Wed, 25 Feb 2026
+ 18:50:15 +0000
+Received: from DS7PR03CA0015.namprd03.prod.outlook.com (2603:10b6:5:3b8::20)
+ by CO1PR08MB7562.namprd08.prod.outlook.com (2603:10b6:303:161::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9632.22; Wed, 25 Feb
+ 2026 18:50:11 +0000
+Received: from DS2PEPF00003447.namprd04.prod.outlook.com
+ (2603:10b6:5:3b8:cafe::b1) by DS7PR03CA0015.outlook.office365.com
+ (2603:10b6:5:3b8::20) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9632.21 via Frontend Transport; Wed,
+ 25 Feb 2026 18:49:45 +0000
+Authentication-Results: spf=pass (sender IP is 139.60.0.73)
+ smtp.mailfrom=e2ma.net; dkim=pass (signature was verified)
+ header.d=message.vu.edu;dkim=pass (signature was verified)
+ header.d=e2ma.net;dmarc=pass action=none
+ header.from=message.vu.edu;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of e2ma.net designates
+ 139.60.0.73 as permitted sender) receiver=protection.outlook.com;
+ client-ip=139.60.0.73; helo=mail73-2z9c.e2ma.net; pr=C
+Received: from mail73-2z9c.e2ma.net (139.60.0.73) by
+ DS2PEPF00003447.mail.protection.outlook.com (10.167.17.74) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9632.12
+ via Frontend Transport; Wed, 25 Feb 2026 18:50:11 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=e2ma-k2; d=message.vu.edu;
+ h=Content-Type:MIME-Version:Subject:From:To:Date:Message-ID:Reply-To:
+ List-Unsubscribe:List-Unsubscribe-Post:Feedback-ID:from:to:subject:cc;
+ i=valiant@message.vu.edu;
+ bh=j3Mj/IQ7wkW6e0voetNZTeNasy3G8fmHg9YEokSj7WM=;
+ b=ZHQv5n5eJRkcA3S+B/gRMVSrF5u/z1hA+g7iBj048rbb71gsbR0yyFUOvE+n5ZBiDOFLXIDaNGWO
+   9Qpgs3aRKIAeaG0lbN1PA/EFFkwRoDU9NPEBNo02ljvqGDwMG89RgIuscOibIhQ71d+7o3tlJTxw
+   XuZkGtCcOOgGAEAIdPPbC/1eUz7prO0QH3DBF0AACykYX8562QhWdV53Hmwr9GDXtRGCDuGQaj7b
+   GDR+6WMVLezRryyvQmPl0uJBL2S4hV6HYPiTJ/0jq0l/W30Q2+77/mz38NK4dUZUp5cifHPd4UL7
+   fO+hsgrITd0yN4M8g0A8mJe4Oj8HYTQWpPDvsQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=e2ma; d=e2ma.net;
+ h=Content-Type:MIME-Version:Subject:From:To:Date:Message-ID:Reply-To:
+ List-Unsubscribe:List-Unsubscribe-Post:Feedback-ID; i=@mail73-2z9c.e2ma.net;
+ bh=j3Mj/IQ7wkW6e0voetNZTeNasy3G8fmHg9YEokSj7WM=;
+ b=XG3O+8SYrun94eQXadbPVyv+hZzTgqrsrRnb2MlJWQ5R26Dve7AmgeqK+qgqDOp8BkWIKVN9XwmZ
+   IJgf0OvITxj9KnZrGHc6OHwjoh8n4v2ARMgl3lmRkXkFrHq8WJf2a76+KlwyKjnDvC/GLg1UFuVt
+   FKEh+2ijbWOs/4xTr1s=
+Received: by mail73-2z9c.e2ma.net id hjt2643791sf for <bennett.landman@vanderbilt.edu>; Wed, 25 Feb 2026 12:50:10 -0600 (envelope-from <763219894.1975222.161751524278@e2ma.net>)
+Content-Type: multipart/alternative;
+ boundary="==177204541048998=="
+Subject: a VALIANT Effort, February 2026
+From: "Valiant@message.vu.edu" <valiant@message.vu.edu>
+To: bennett.landman@vanderbilt.edu
+Date: Wed, 25 Feb 2026 18:50:10 -0000
+Message-ID: <kdmgb.wiqowm.w6syclcc@e2ma.net>
+Reply-To: valiant@vanderbilt.edu
+Precedence: bulk
+Return-Path: 763219894.1975222.161751524278@e2ma.net
+List-Unsubscribe: <https://t.e2ma.net/optout/wiqowm/w6syclcc?s=ARpGaQsYKz5WxRrQHl4tGfU7-NNKMlUqMxFeEwY1618>,<mailto:w6syclcc.wiqowm.kdmgb.optout@e2ma.net>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Test-Mailing: no
+Feedback-ID: 1975222:763219894:mainstream:EMMAFBL
+X-MS-Exchange-Organization-ExpirationStartTime: 25 Feb 2026 18:50:11.2597
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 71c10fd8-18d2-4810-56c5-08de749eb459
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: ba5a7f39-e3be-4ab3-b450-67fa80faecad:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DS2PEPF00003447:EE_|CO1PR08MB7562:EE_|DM5PR0801MB3784:EE_
+X-MS-Exchange-Organization-AuthSource: DS2PEPF00003447.namprd04.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 71c10fd8-18d2-4810-56c5-08de749eb459
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;ARA:13230040|4022899009|7049299003|7149299003|69100299015|3109299003|8096899003|13003099007|14062099003|54012099003|3122999024;
+X-Forefront-Antispam-Report: CIP:139.60.0.73;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKN;H:mail73-2z9c.e2ma.net;PTR:mail73-2z9c.e2ma.net;CAT:NONE;SFS:(13230040)(4022899009)(7049299003)(7149299003)(69100299015)(3109299003)(8096899003)(13003099007)(14062099003)(54012099003)(3122999024);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 25 Feb 2026 18:50:11.0728
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 71c10fd8-18d2-4810-56c5-08de749eb459
+X-MS-Exchange-CrossTenant-Id: ba5a7f39-e3be-4ab3-b450-67fa80faecad
+X-MS-Exchange-CrossTenant-AuthSource: DS2PEPF00003447.namprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR08MB7562
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.9705107
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9654.000
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944490095)(944506478)(944626604)(920097)(930201)(20251009189)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	=?Windows-1252?Q?X+r+Lv/nNRKsIpjDOdHpYWlnwtsYKbu7jEWHQcNqD/nbF4G04FBE//Ko?=
+ =?Windows-1252?Q?98ohwOOWac2iiL51QJSFHteyY+YMfoU83ZX3q/E09jMwE7nhh2lXiqJP?=
+ =?Windows-1252?Q?+um8kshJjnOf7m4weLzzm7rg5vAiF2dlj7IeoJfCzZOS/SH7tVa6hPaH?=
+ =?Windows-1252?Q?O+bWdgkVJ+Brj1Wg7GwcUsYWQScDqU7PoBGFScKZSdjTSgIiFrOPaxeT?=
+ =?Windows-1252?Q?Y/29/+G05YhrBOgY70Vs28sWeO4DunQf0bbpHmDMVtxllFdsLcJylOaq?=
+ =?Windows-1252?Q?JFU5tGcGPgF7DSxDpYrl4yi+9mlqZDrd5pElVD88mHjGbmFViEOzwawv?=
+ =?Windows-1252?Q?xtgORSQJ8QXvrV9K/JeOLVDooftapL3FA1bg8IGXqQ4nQ+nTYp8UlvfR?=
+ =?Windows-1252?Q?b0JeYh0w70rEvZa9iINKRg4Io4eaZ8Vv2yzzusnZlP4SmfzHcZ4jHTYX?=
+ =?Windows-1252?Q?I4UKAY5q9KAovwQY+InEisWpJfDl3ymMrGwCxEUevK1tT6w9s43BcMUT?=
+ =?Windows-1252?Q?nswizdCdJB433tO6r30EmhUsANH9PEbcXUtBLPu6zuOJENPTXEI1lhGX?=
+ =?Windows-1252?Q?wtBWwNEdpDsi/vGMpm5QjBDGtJ+1c4zO/KmAKGwLrbYvZhGWvXqqs7a+?=
+ =?Windows-1252?Q?GuIUnkH4oifjL8kAtAlRKFOqxQMLNkuv3olS2cTRzyrxfIm3qxOstIqH?=
+ =?Windows-1252?Q?+bHhpeMq5zT/CEpEPyU0dywkYKyWRG93njAy7prjXaaGaywybCHdv1W4?=
+ =?Windows-1252?Q?lwpp2ZeeVvQ7n3XJx3i8zrg3KHoEOhSMFebiA5qRmbwIq/uFBHQxnsuA?=
+ =?Windows-1252?Q?5rvtrhjv+bH12rfB4TAHvc+rG1DN8+ebpP//Sdb2Mqx/VMHi02XDLqgI?=
+ =?Windows-1252?Q?AR/8gUZMwSGnkG7CD0HNzJELT9BWkY7NrrVeBm6S0HSMFN5Tw3QrjKzR?=
+ =?Windows-1252?Q?qhY7puxNvO16hxDlA5Mz71Z6IdKE4Boj6yN05E4g1rWIuCocMqv1cHFg?=
+ =?Windows-1252?Q?wcLuWeOU4zBpG+kmJ3rEoPFNDqvozyv2IRwBGfMPMWMfxxISToY+KQl3?=
+ =?Windows-1252?Q?fobX1YgCjSELxhsbAHNSf7Pxecj+riMu+BfkBzwEp2kCKZUuIB/2Sglr?=
+ =?Windows-1252?Q?OjiizJF1zIR+QP3Je/1BJpD6ONzlbj1cf1NBW5GLDtlksEK+LfKw8/sB?=
+ =?Windows-1252?Q?4OtZ8P2qnmYvz/IO1d6dyB/h7o+Rp1O9KyTorMCGxuEek5jWDrdHrTYy?=
+ =?Windows-1252?Q?zRpKhvGzjsKgnyY12ws6FKeIeL+pDo8Za/4h7jPOSB8dch01Ru9VL82u?=
+ =?Windows-1252?Q?TEIn7ET0FkCphHupI9dBS4kgXUHPGGpBwzo+KZrehlNq0R8RUjqxJIu3?=
+ =?Windows-1252?Q?7+1NrauBI7PO3uAKPKoeCKrIeFykSfpU6r0WmV5e97+MAwZ/5D1LiE+L?=
+ =?Windows-1252?Q?0PfFmYLLNMrmYwE28Tg1ExG6NQNG+acKDgB6CiSwOksbmKE9RBuO+qhu?=
+ =?Windows-1252?Q?376E7eFYP7O37qb/A+9OxREmA8B4671JKv7KvpBFDI98XHQ32E77vcMR?=
+ =?Windows-1252?Q?dYcfUoI0MrTSeTRwoWi9UwHJzmFJiFw3T3RWQqB0X+qU3IwwU0jxr90l?=
+ =?Windows-1252?Q?ownCSAUcFo8qOg7m3odwi6ax0uOq9+fDOsUFEHyDRBEJWn90R1+o6Bor?=
+ =?Windows-1252?Q?/4j4LZWPQ8yAahziMpjduWv+tbWUaSV7QMft5fp4k/dRQGrENJQ4LfCT?=
+ =?Windows-1252?Q?Mqmnou9BBdS0hWUI8WC6Sj77jXUHawnjd27cjNb8Mvsb1EAxkNbEjQ+O?=
+ =?Windows-1252?Q?1Yvg/AjwcK2sp5nr9AARhBXBRhnCLLKWwXtSj23jYGsnXCsT0r30eSYr?=
+ =?Windows-1252?Q?/Wj6n7XMvuZ/cT+wTWUtzypp0VG2jcOglHtfT97bKxlqyina1V8kHLnP?=
+ =?Windows-1252?Q?Z9xIMbairhrojmHU7BO60DY7Gl/tREaRKJyGhPYovchFeAQS6cRcPKsr?=
+ =?Windows-1252?Q?1vuFvpypYOlC6gwB3FIqnqMg3b93WMupNt1s9xVljCLRV91ZL7SHNyrr?=
+ =?Windows-1252?Q?cQzO/vmrQ0n9L4AGFZ9fJXJvw6i1qL+TKxX/Jd+PEcjfd00m+j4ZpLuN?=
+ =?Windows-1252?Q?krk50Cyk9qM9hhul13pQFgD9xKIgfIpcLjgZ/5S4W5zFEd0UDuNHdQB5?=
+ =?Windows-1252?Q?QTSqI1VpxcqKPBQDL9zkteGuDJ48MA+8AhCzcnNSvLQZsomfabRRTLqa?=
+ =?Windows-1252?Q?RSuEvC/ue2JLQWz2fJetInvGj8OvaMLzubkOKQei0og7Arsel4Ekm6Hj?=
+ =?Windows-1252?Q?+ln1sprcy59O3QAS5XUiU4FiTts6Xj/Ry16JZIrOAnd1IqG8M32X7ewe?=
+ =?Windows-1252?Q?T+yKNCFDpg//cUi1soxcQo3J3bkKeX3SyGXNjL+zqPIgAnOTkSqaUPiM?=
+ =?Windows-1252?Q?OkLQYxP8YofPBS4GykU5tbnBZtRvJ4VA4qgtAyNohFV0yDUKglGztYdZ?=
+ =?Windows-1252?Q?yYJLkLEBvrOJYUJkkfrKHLdntq15+ckKwDx4/8e9KGMUiaOqT4uvsVYw?=
+ =?Windows-1252?Q?eTrXqeSvZ7PUp7fgR08AnIgfzEvCmDPw7k0XkU31sa2inHyhC+uVSgTk?=
+ =?Windows-1252?Q?MoYp2bo827GPqoa/IDeSJf0BP5glQS9HJhYoRkHyUDvWl5rQerVo7j6a?=
+ =?Windows-1252?Q?Uz6PF/o+7xNWFuCeKaZlFacs8KyOjLRkorPeG4sA2M5wfRdqQjaoK1a4?=
+ =?Windows-1252?Q?Fcnr45rQg9c89IRdHOaHaSf+eTvBMIpLyh7RbOX1ebAhnB4rGhxoQChx?=
+ =?Windows-1252?Q?xZUTR7jH+m4MwTWMyiWxF66iFzmTfPxbcQvi3R51frFz2zaE6hnu6jXh?=
+ =?Windows-1252?Q?lc8sGGsdDY+19NzmMEH/E8g4b6QhbTGH+sGTGj0nAvynoqC9QT828EVR?=
+ =?Windows-1252?Q?zOFfymr6i4HywkmI8SV3QL4p32hVpZCvbpdHU6enm0Aw1yBUJZu3nOjL?=
+ =?Windows-1252?Q?30mCPg5oAo15nPXxjxEx6K0q8J/H5OT1ZbRAKJSGOY7NOWkihev8eRvx?=
+ =?Windows-1252?Q?GoF/F6/kBAMXt6j6rMoXiynenkFXq3A67aMxSqJDkOHv3hYrrfkCLenL?=
+ =?Windows-1252?Q?22LDAgS180iGR3o9gXZj/Bth9D1VdiYJKPj15PMG0tErKOji4dS942jn?=
+ =?Windows-1252?Q?5sEuhsmKQXJKeI6DHiAEWpbb3d900Ftf/fbCOBy++qyOPanwkYV9zoSf?=
+ =?Windows-1252?Q?+DyavUU+iz7Dhw7xSTQdd076drR4zVH5a6A7TVBxMlfd/4yBG7kcmV7b?=
+ =?Windows-1252?Q?Wr/wtiXS039drAjQ72czw3vvGYp1f5IYoSb4n61aWUcFOXVNhBsx9F1+?=
+ =?Windows-1252?Q?r64UZNoCJad19MMoDQ0sWpsqKQlA0GLDhJfodfwmpfbXOaQ2wUe0N3Up?=
+ =?Windows-1252?Q?crLtDFXV9xUJZRldxViqb8CTdhYZwJlulL3riEcFqEoffko9MLAlOw+2?=
+ =?Windows-1252?Q?88fhpztg?=
+MIME-Version: 1.0
+
+--==177204541048998==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View email online: https://t.e2ma.net/message/wiqowm/w6syclcc
+---------------------------------
+
+
+
+
+
+valiant@vanderbilt.edu (mailto:valiant@vanderbilt.edu) | https://vanderbilt=
+.edu/valiant (https://t.e2ma.net/click/wiqowm/w6syclcc/czpv3rb) | @VandyVal=
+iant (https://t.e2ma.net/click/wiqowm/w6syclcc/srqv3rb)=C2=A0| LinkedIN (ht=
+tps://t.e2ma.net/click/wiqowm/w6syclcc/8jrv3rb)
+
+February 2026
+
+Friends,
+
+It seems only fitting that in the shortest month of the year, we deliver on=
+e of our longest newsletters. To paraphrase Taylor Swift, we have a lot goi=
+ng on right now.
+
+I have just returned from the SPIE Medical Imaging (https://t.e2ma.net/clic=
+k/wiqowm/w6syclcc/ocsv3rb) conference, where an energetic and creative Vand=
+erbilt cohort, pictured above, presented more than 50 papers and sessions a=
+nd took home honors across image processing, informatics, computer aided di=
+agnosis, and AI in medicine. Our awardees included graduate students, medic=
+al students, visiting scholars, and undergraduates. Together, they are push=
+ing boundaries and asking fundamental questions: What does it mean to learn=
+? What does it mean to create? What does it mean to discover as partners wi=
+th AI?
+
+Back in Nashville, that same energy continues. I am deeply grateful to Jess=
+e Spencer Smith and Alan Karns for guest lecturing in my Studio in AI cours=
+e and helping us explore how to integrate AI into meaningful projects. Acro=
+ss campus, our scholars are contributing to discoveries that span disciplin=
+es, from planetary science to proteomics, from harmonization in brain MRI t=
+o translational work in bronchoscopy and beyond, as reflected in this month=
+=E2=80=99s Alchemists=E2=80=99 Corner.
+
+At the same time, AI opportunities are accelerating across Nashville and Mi=
+ddle Tennessee. Industry partners are spinning out of Vanderbilt and others=
+ are joining our circle, eager to translate the ideas and momentum here int=
+o real world innovation. I value the early conversations just as much as th=
+e fully formed partnerships. Each represents a spark.
+
+This spring, we will amplify that spark through our Discover AI (https://t.=
+e2ma.net/click/wiqowm/w6syclcc/44sv3rb) event and a new PITCH competition. =
+AI Scholars will present three-minute, single-slide visions for transformat=
+ive pilot projects, bold resource investments, or boundary-pushing experime=
+nts. A distinguished panel of external judges will allocate real funding to=
+ the ideas that spark their imagination, serving as entrepreneurial catalys=
+ts for innovation=C2=A0in our dynamic research community. Along with live A=
+I demonstrations and dedicated networking time, Discover AI will help us dr=
+eam boldly and build wisely.
+
+One thing is certain: there is never a boring day at VALIANT. I look forwar=
+d to connecting with you this spring, whether electronically, in person, or=
+ through carrier pigeon.
+
+Warmly,=C2=A0
+
+Bennett=C2=A0=C2=A0
+
+Discover AI 2026
+
+VALIANT's Discover AI (https://t.e2ma.net/click/wiqowm/w6syclcc/kxtv3rb)=C2=
+=A0on April 24, 2026 will bring our community together for a day of artific=
+ial intelligence in action, featuring interactive demos, industry and organ=
+izational partners, and an evening reception designed to spark new collabor=
+ations. As part of the event, students can compete in both a PITCH competit=
+ion and an AI Demo competition for funding and recognition to accelerate th=
+eir ideas, and VALIANT Fellows are receiving early access to nominate stude=
+nts and labs before applications open university wide. This is an opportuni=
+ty to elevate emerging AI research, strengthen interdisciplinary connection=
+s, and highlight the innovative work already happening within our center wh=
+ile helping the next generation of projects take shape.
+
+Building Tools That Translate
+
+We continue our profile series on the VALIANT community with our most recen=
+t member... AI Scholar Yimeng Dou=E2=80=99s career sits at the intersection=
+ of hardware, algorithms, and clinical reality.
+
+As an undergraduate at UC Davis, he designed circuit boards and signal comp=
+ression strategies to enhance positron emission tomography (PET) imaging sy=
+stems. He later helped build PET analysis pipelines and deep learning frame=
+works for biomedical applications. Along the way, he co-founded a student s=
+tartup aimed at helping adolescents with chronic disease transition into ad=
+ult care, learning firsthand that innovation requires both technology and a=
+ viable path to impact. During his PhD at Wisconsin, Yimeng advanced multim=
+odal medical image registration and freehand 3D ultrasound reconstruction, =
+earning recognition in international challenges and publishing in leading v=
+enues.
+
+What brought him to MASI is a conviction that data matters. Deep learning i=
+n medicine must grapple with real-world variability across devices, institu=
+tions, and patient populations. He is particularly intrigued by image-based=
+ search across large clinical archives, asking how we might use one image t=
+o retrieve similar cases and reduce diagnostic ambiguity.
+
+New to Nashville (joining VALIANT this month), he has already observed that=
+ people here are surprisingly friendly. We are delighted that his next chap=
+ter, and his next set of big questions, will unfold with us.
+
+VALIANT Ventures
+
+Our scientists are breaking new ground:
+
+Dr. Can Luo, who successfully passed her PhD defense on January 21 (https:/=
+/t.e2ma.net/click/wiqowm/w6syclcc/0puv3rb), has received the prestigious Ou=
+tstanding Doctoral Student Award.=C2=A0=C2=A0She has also accepted a postdo=
+ctoral position with Professor Evan Eichler at the University of Washington=
+, a world leader in structural variation and population genomics, where she=
+ will begin in April. Her research will focus on developing computational m=
+ethods for analyzing genome-wide structural variation in large-scale long-r=
+ead sequencing datasets, including graph-based variant discovery and collab=
+orative studies with major genomics consortia to uncover disease associatio=
+ns and population genetic patterns.
+
+Lily Gao was selected as runner-up for the SPIE Medical Imaging Wagner all-=
+conference best student paper (https://t.e2ma.net/click/wiqowm/w6syclcc/giv=
+v3rb) award!=C2=A0
+
+Owen Dong and Adam Saunders=C2=A0took home first and third place at their 3=
+-minute poster competitions at the SPIE Medical Imaging Conference (https:/=
+/t.e2ma.net/click/wiqowm/w6syclcc/wawv3rb) (awarded by the Journal of Medic=
+al Imaging).=C2=A0
+
+Eleanor Liard (https://t.e2ma.net/click/wiqowm/w6syclcc/c3wv3rb)'s work was=
+ selected as an SPIE Image Processing Deep Dive presentaiton.=C2=A0
+
+VALIANT's AI in the Classroom
+
+The AI in the Classroom Faculty Seminar Series (https://t.e2ma.net/click/wi=
+qowm/w6syclcc/svxv3rb) creates a candid, faculty led space for Vanderbilt a=
+nd VUMC educators to share real experiences, challenges, and practical stra=
+tegies for navigating artificial intelligence in higher education. From ret=
+hinking assessments to addressing academic integrity, these discussion driv=
+en sessions focus on what is actually happening in our classrooms and how w=
+e respond thoughtfully, together.
+
+DSI's=C2=A0AI Days 2026=C2=A0
+
+AI Days 2026 (https://t.e2ma.net/click/wiqowm/w6syclcc/8nyv3rb) brings Vand=
+erbilt=E2=80=99s community together for two days of hands on workshops, res=
+earch showcases, and cross disciplinary conversations focused on generative=
+ AI and agentic systems. Built around the theme Come with Ideas Leave with =
+Solutions, the conference is designed to help participants move beyond insp=
+iration and walk away with practical strategies they can immediately apply =
+to their academic and scholarly work.
+
+THRIVE-AI=C2=A0
+
+VALIANT is proud to be part of THRIVE-AI (https://t.e2ma.net/click/wiqowm/w=
+6syclcc/ogzv3rb), a statewide effort uniting Tennessee institutions to buil=
+d interdisciplinary AI and machine learning capacity. Through collaborative=
+ workshops and partnerships across Knoxville, Nashville, and Memphis, the i=
+nitiative empowers emerging researchers to develop ethical, AI driven solut=
+ions that address critical health disparities across the region.
+
+A Deeper Dive into the Brain=E2=80=99s Networked Waters
+
+On March 17 from 1 to 2PM CST, the VALIANT Deeper Dive Seminar Series welco=
+mes Weifeng Yu from the University of Virginia for a focused exploration of=
+ graph learning in multimodal neuroimaging. His talk,=C2=A0Integrating Mult=
+imodal Imaging and Non Imaging Data via Graph Learning, will chart how func=
+tional connectivity and behavioral characteristics can be woven together to=
+ better differentiate psychiatric disorders, highlighting the role of thala=
+mic and network level patterns in adolescent neurodevelopment.
+
+Editor's Choice Award
+
+AI Fellow Kurt Schilling's work on preclinical diffusion MRI was selected a=
+s an Editor=E2=80=99s Pick of=C2=A0Magnetic Resonance in Medicine (https://=
+t.e2ma.net/click/wiqowm/w6syclcc/48zv3rb), highlighting practical guidance =
+for rigorous in vivo small animal imaging. This recognition underscores the=
+ growing impact of our collaborative efforts to strengthen standards in tra=
+nslational diffusion MRI research.
+
+From Brain Tracts to Beating Hearts
+
+VALIANT and VUIIS investigators Dr. Bennett Landman and Dr. Kurt Schilling =
+have received a Leeds=E2=80=93Vanderbilt Pump Priming Seed Grant with Dr. I=
+rvin Teh (University of Leeds) for =E2=80=9CAdvancing 3D microstructural ch=
+aracterisation in whole heart: From tracts to sheetlets.=E2=80=9D=C2=A0 The=
+ project will translate connectomics-style diffusion MRI analysis into the =
+heart - using whole-heart tractography and tract-/sheetlet-level phenotypin=
+g to quantify how cardiomyocyte and sheetlet architecture differs between r=
+elaxed vs. contractured hearts, generating pilot data for sustained collabo=
+ration.=C2=A0 This work combines Landman=E2=80=99s expertise in large-scale=
+ image processing and analysis, Schilling=E2=80=99s expertise in tractograp=
+hy/tractometry pipelines, and Teh=E2=80=99s expertise in cardiac diffusion =
+MRI, imaging, and anatomy, building on their broader =E2=80=9Ctractography =
+beyond the brain=E2=80=9D collaboration.
+
+Keeping in touch
+
+We cut through announcement overload by unifying AI related seminars and vi=
+sits into one shared calendar (https://t.e2ma.net/click/wiqowm/w6syclcc/k10=
+v3rb) that helps our community discover ideas beyond their home area and sh=
+ow up for the conversations that spark the best new thinking.
+
+Deep Thinking, Shared
+
+We were delighted to host Mengqi Wu from the University of North Carolina a=
+t Chapel Hill for a VALIANT Deeper Dive seminar on multi site brain MRI har=
+monization. His presentation sparked thoughtful technical discussion and ex=
+actly the kind of engaged exchange that makes this series so valuable to ou=
+r community.
+
+Letting the Students Use AI
+
+Faculty Seminar March 3rd @ 9am (https://t.e2ma.net/click/wiqowm/w6syclcc/0=
+t1v3rb):=C2=A0Should students be allowed to use AI in coursework=E2=80=94an=
+d if so, under what conditions? This session explores practical approaches =
+to integrating AI into assignments while maintaining academic rigor and int=
+egrity. We=E2=80=99ll discuss policy design, transparency expectations, and=
+ how to distinguish between productive AI use and overreliance.
+
+Using AI to Improve Student Feedback
+
+Faculty Seminar March 6th, 2026 @ 12pm (https://t.e2ma.net/click/wiqowm/w6s=
+yclcc/gm2v3rb):=C2=A0AI can generate summaries, draft comments, and even su=
+ggest improvements=E2=80=94but how can it meaningfully enhance the feedback=
+ process without diminishing instructor voice or student growth? This discu=
+ssion focuses on ways AI might streamline grading workflows, improve feedba=
+ck quality, and support more timely responses while keeping faculty firmly =
+in the loop.
+
+When the Code Works but the Student Didn=E2=80=99t Write It
+
+Faculty Seminar March 18th @ 12pm (https://t.e2ma.net/click/wiqowm/w6syclcc=
+/we3v3rb). In technical courses, AI can produce fully functioning code in s=
+econds. But if the solution works, how do we assess whether the student und=
+erstands it? This session examines strategies for evaluating comprehension,=
+ reinforcing learning objectives, and redesigning assessments to prioritize=
+ reasoning over output.
+
+I Think My Student Used AI to Cheat. What Do I Do?
+
+Faculty Seminar March 24th @ 8:30am (https://t.e2ma.net/click/wiqowm/w6sycl=
+cc/c73v3rb).=C2=A0As AI tools become harder to detect and easier to access,=
+ faculty are navigating new gray areas around academic integrity. This conv=
+ersation addresses how to respond when AI misuse is suspected, the limitati=
+ons of detection tools, and how to approach these situations thoughtfully a=
+nd consistently.
+
+Looking for an AI Internship?
+
+The VALIANT-jobs listserv is active with a focus with positions in Nashvill=
+e. Join us at list.vanderbilt.edu=C2=A0
+
+Alchemists' Corner
+
+We have a lot going on right now. Here is a selection of what has hit Scopu=
+s (https://t.e2ma.net/click/wiqowm/w6syclcc/sz4v3rb) from our community sin=
+ce last month.=C2=A0
+
+Mixed-model and transcriptome-wide association analyses identify transcript=
+ion factors and genes associated with colorectal cancer susceptibility (htt=
+ps://t.e2ma.net/click/wiqowm/w6syclcc/8r5v3rb)
+
+OMG! A proteomic determinant of neurodegenerative resiliency (https://t.e2m=
+a.net/click/wiqowm/w6syclcc/ok6v3rb)
+
+Developmental variations in recurrent spatiotemporal brain propagations fro=
+m childhood to adulthood (https://t.e2ma.net/click/wiqowm/w6syclcc/4c7v3rb)
+
+Multi-modality conditioned variational U-net for field-of-view extension in=
+ brain diffusion MRI (https://t.e2ma.net/click/wiqowm/w6syclcc/k57v3rb)
+
+Cumulative lipid exposure in young adulthood and risk of midlife MASLD (htt=
+ps://t.e2ma.net/click/wiqowm/w6syclcc/0x8v3rb)
+
+UNISELF: A unified network with instance normalization and self-ensembled l=
+esion fusion for multiple sclerosis lesion segmentation (https://t.e2ma.net=
+/click/wiqowm/w6syclcc/gq9v3rb)
+
+An MRI-based macro- and microstructural neuroimaging-wide association study=
+ of subsequent cognitive impairment (https://t.e2ma.net/click/wiqowm/w6sycl=
+cc/wiaw3rb)
+
+Enterprise-wide simultaneous deployment of ambient scribe technology: lesso=
+ns learned from an academic health system (https://t.e2ma.net/click/wiqowm/=
+w6syclcc/cbbw3rb)
+
+The Tool for Automatic Analysis of Decoding Ambiguity (TAADA) (https://t.e2=
+ma.net/click/wiqowm/w6syclcc/s3bw3rb)
+
+Assessing the effectiveness of the one paleopathology workshop (https://t.e=
+2ma.net/click/wiqowm/w6syclcc/8vcw3rb)
+
+Coaxial capacitor (COCA) coil for stretchable arrays in ultrahigh-field MRI=
+ (https://t.e2ma.net/click/wiqowm/w6syclcc/oodw3rb)
+
+Functional and Structural Evidence of Neurofluid Circuit Aberrations in Hun=
+tington Disease (https://t.e2ma.net/click/wiqowm/w6syclcc/4gew3rb)
+
+Imaging the past: Dental pathologies and cardiovascular disease in Egyptian=
+ mummified remains (https://t.e2ma.net/click/wiqowm/w6syclcc/k9ew3rb)
+
+TOI-333b: A Neptune-desert planet around an F7V star (https://t.e2ma.net/cl=
+ick/wiqowm/w6syclcc/01fw3rb)
+
+Lifespan Pancreas Morphology for Control Versus Type 2 Diabetes Using AI on=
+ Largescale Clinical Imaging (https://t.e2ma.net/click/wiqowm/w6syclcc/gugw=
+3rb)
+
+Investigating the Feasibility of Conducting Webcam-Based Eye-Tracking Studi=
+es in Code Comprehension (https://t.e2ma.net/click/wiqowm/w6syclcc/wmhw3rb)
+
+Evaluating the association of apolipoprotein E genotype and cognitive resil=
+ience in SuperAgers (https://t.e2ma.net/click/wiqowm/w6syclcc/cfiw3rb)
+
+Stellar Library of Differential Emission Measures and Extreme Ultraviolet S=
+pectra: Dwarf Stars Observed by the Extreme Ultraviolet Explorer (https://t=
+.e2ma.net/click/wiqowm/w6syclcc/s7iw3rb)
+
+Integration of Data Science Modules Across Interdisciplinary Courses at Mul=
+tiple Institutions: Analysis of Student and Faculty Perspectives (https://t=
+.e2ma.net/click/wiqowm/w6syclcc/8zjw3rb)
+
+Demystifying the Power of Large Language Models in Graph Structure Generati=
+on (https://t.e2ma.net/click/wiqowm/w6syclcc/oskw3rb)
+
+Innovation in rigid bronchoscopy=E2=80=94past, present, and future (https:/=
+/t.e2ma.net/click/wiqowm/w6syclcc/4klw3rb)
+
+ (https://t.e2ma.net/click/wiqowm/w6syclcc/kdmw3rb)
+
+
+
+
+
+---------------------------------
+"Vanderbilt" and the Vanderbilt logo are registered trademarks and service =
+marks of Vanderbilt University.
+
+Manage your preferences: https://radar.app.vanderbilt.edu/radar/epc/index.a=
+spx?subscriberkey=3D[[email]]&area=3D[[area]]&email-type-code=3D[[type]]&ad=
+vID=3D[[id-number]]&appeal=3D[[appeal]] | Unsubscribe from all: https://t.e=
+2ma.net/optout/wiqowm/w6syclcc?s=3DARpGaQsYKz5WxRrQHl4tGfU7-NNKMlUqMxFeEwY1=
+618
+--==177204541048998==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:o=3D"urn:=
+schemas-microsoft-com:office:office" xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml"><head><!--[if gte mso 9]><xml>
+     <o:OfficeDocumentSettings>
+       <o:AllowPNG/>
+       <o:PixelsPerInch>96</o:PixelsPerInch>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]--><!-- UYOTB OGTB --><!-- Template created from BLANK-t=
+emplate --><!-- Template created from Blank template with editable header -=
+-><!-- Hero Template - Nicole O'Neal Build - Editable Header -->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><s=
+tyle type=3D"text/css">
+@media screen and (max-width: 480px) {
+    #block_nzmxaevl .e2ma-holder.e2ma-follow-holder table, #block_duloptzf =
+.e2ma-holder.e2ma-follow-holder table, #block_pmbwakoz .e2ma-holder.e2ma-fo=
+llow-holder table {
+        width: auto !important;
+        margin: 0 auto
+        }
+    #block_duloptzf .e2ma-holder.e2ma-follow-holder table td, #block_nzmxae=
+vl .e2ma-holder.e2ma-follow-holder table td, #block_pmbwakoz .e2ma-holder.e=
+2ma-follow-holder table td {
+        display: table-cell !important;
+        float: none !important;
+        width: auto !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important
+        }
+    .e2ma-combo-button, .e2ma-template .mobile-width-nopad {
+        width: 100% !important
+        }
+    /* START: EMMA STYLES */
+    .e2ma-template html {
+        -webkit-text-size-adjust: none
+        }
+    .e2ma-template .e2ma-combo-content li, .e2ma-template .e2ma-content-blo=
+ck div.e2ma-p-div, .e2ma-template .e2ma-combo-block li, .e2ma-template .e2m=
+a-content-block li, .e2ma-template .e2ma-combo-block div.e2ma-p-div, .e2ma-=
+template .e2ma-combo-content div.e2ma-p-div {
+        font-size: 24px !important
+        }
+    .e2ma-template .e2ma-holder table, .e2ma-template .e2ma-holder table td=
+ {
+        display: table;
+        float: none !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important
+        }
+    .e2ma-template .e2ma-single-column-layout table {
+        float: none !important;
+        margin: 0 auto
+        }
+    .e2ma-template .scale img, .e2ma-template .e2ma-layout-column-content i=
+mg, .e2ma-template .e2ma-layout-column-sidebar img, .e2ma-template .e2ma-si=
+ngle-column-layout img, .e2ma-template .editable_image img, .e2ma-template =
+.e2ma-layout-column-sidebar-2 img, .e2ma-template .e2ma-layout-column-sideb=
+ar-3 img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto
+        }
+    .e2ma-template .footer-social img {
+        width: 44px !important;
+        height: 43px !important;
+        margin: 0 auto
+        }
+    .e2ma-template .footer-text {
+        text-align: center !important
+        }
+    .e2ma-template .mobile-width {
+        width: 100% !important;
+        padding-left: 10px;
+        padding-right: 10px
+        }
+    .e2ma-template .stack, .e2ma-template .e2ma-layout-column-sidebar-3, .e=
+2ma-template .e2ma-layout-column-content, .e2ma-template .e2ma-layout-colum=
+n-sidebar, .e2ma-template .e2ma-layout-column-sidebar-2 {
+        display: block !important;
+        width: 100% !important
+        }
+    .e2ma-template .hide {
+        display: none !important
+        }
+    .e2ma-template .center img, .e2ma-template .center {
+        text-align: center !important;
+        margin: 0 auto
+        }
+    .e2ma-template .addpad {
+        padding: 10px 0 !important
+        }
+    .e2ma-template .addpad-top {
+        padding-top: 10px !important
+        }
+    .e2ma-template .sanpad {
+        padding: 0 !important
+        }
+    .e2ma-template .sanborder {
+        border: none !important
+        }
+    /* END: EMMA STYLES */
+    /* START: EMMA STYLES */
+    /* END: EMMA STYLES */
+    /* START: EMMA STYLES */
+    /* END: EMMA STYLES */
+    /* START: EMMA STYLES */
+    /* END: EMMA STYLES */
+    /* START: EMMA STYLES */
+    /* END: EMMA STYLES */
+    }
+.e2ma-template #template_container a.addressFix {
+    color: #fff;
+    text-decoration: none;
+    cursor: text
+    }
+.e2ma-template #template_container a.owaContextualHighlight span, .e2ma-tem=
+plate #template_container a.owaContextualHighlight a {
+    border: none !important;
+    color: inherit !important
+    }
+/* START: EMMA STYLES */
+.e2ma-template h1, .e2ma-template h2, .e2ma-template h3, .e2ma-template h4,=
+ .e2ma-template h5, .e2ma-template h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+    }
+.e2ma-template h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #006682 !important
+    }
+.e2ma-template h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #006682
+    }
+.e2ma-template h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #006682
+    }
+.e2ma-template h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #006682
+    }
+.e2ma-template .e2ma-content-block div.e2ma-p-div, .e2ma-template .e2ma-com=
+bo-block div.e2ma-p-div, .e2ma-template .e2ma-combo-content div.e2ma-p-div,=
+ .e2ma-template .e2ma-content-block li, .e2ma-template .e2ma-combo-block li=
+, .e2ma-template .e2ma-combo-content li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333 !important
+    }
+.e2ma-template img#hero {
+    width: 100%;
+    max-width: 600px;
+    height: auto !important
+    }
+/* START: Vanderbilt Branded Link */
+.e2ma-template #template_container a.reg-link, .e2ma-template #template_con=
+tainer .link, .e2ma-template #template_container a, .e2ma-template a.reg-li=
+nk, .e2ma-template .link {
+    color: #006682;
+    text-decoration: underline;
+    font-weight: bold !important;
+    background: none !important;
+    background-color: none !important
+    }
+/* END: Vanderbilt Branded Link */
+/* END: Vanderbilt Branded Link */
+.e2ma-template td.button-block-border-radius {
+    backgound-color: #006682;
+    color: #333
+    }
+.e2ma-template blockquote {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    font-style: italic
+    }
+.e2ma-template blockquote div.e2ma-p-div {
+    margin-bottom: 0
+    }
+.e2ma-template .editable_image img {
+    display: block;
+    border: 0
+    }
+/* END: EMMA STYLES */
+</style><meta content=3D"telephone=3Dno" name=3D"format-detection"></head><=
+body class=3D"e2ma-design-option-backdrop e2ma-template" data-e2ma-styles=
+=3D"background" style=3D"-webkit-font-smoothing: antialiased;background-rep=
+eat: repeat;padding: 0;width: 100% !important;background-attachment: scroll=
+;-moz-osx-font-smoothing: grayscale;background-position: center center;marg=
+in: 0;background-color: transparent">
+<div class=3D"e2ma-design-option-backdrop" data-e2ma-styles=3D"background" =
+style=3D"-webkit-font-smoothing: antialiased;background-repeat: repeat;padd=
+ing: 0;width: 100% !important;background-attachment: scroll;-moz-osx-font-s=
+moothing: grayscale;background-position: center center;margin: 0;background=
+-color: transparent">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" data-e2ma-color=3D"=
+#333333, #006682, #993D1B, #D8AB4C" role=3D"presentation" style=3D"font-fam=
+ily: Arial, Helvetica, sans-serif;font-size: 12px;-moz-osx-font-smoothing: =
+grayscale; -webkit-font-smoothing: antialiased" width=3D"100%">
+<tbody>
+<tr>
+<td align=3D"center" class=3D"sanpad" style=3D"padding:15px 0px">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mobile-width-nopad" role=3D"presentation" style=3D"font-family: Aria=
+l, Helvetica, sans-serif;font-size: 12px;width: 600px">
+<tbody>
+<!-- =3D=3D=3D VIEW IN BROWSER =3D=3D=3D --->
+<tr><!-- VIEW IN BROSWER ROW STARTS HERE -->
+<td align=3D"right" class=3D"viewinbrowser">
+<table style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 12px" =
+width=3D"100%"><!-- VIEW IN BROSWER TABLE STARTS HERE -->
+<tbody><tr>
+<td align=3D"center" style=3D"color:#333333; font-family: 'Palatino Linotyp=
+e', 'Book Antiqua', Palatino, serif; font-size:12px; line-height:15px; padd=
+ing-top: 15px; padding-bottom: 15px;text-decoration: none" valign=3D"middle=
+"><a href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A=
+%2F%2Ft.e2ma.net%2Fmessage%2Fwiqowm%2Fw6syclcc&amp;data=3D05%7C02%7Cbennett=
+.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be=
+4ab3b45067fa80faecad%7C0%7C0%7C639076422156166341%7CUnknown%7CTWFpbGZsb3d8e=
+yJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIs=
+IldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DD7kwiRWguGwHPLU32Kc4a2dsmaHahMJ8o=
+yckRRzLQuI%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/message/w=
+iqowm/w6syclcc" style=3D"font-weight: normal;font-weight: normal;color:#333=
+333">View email online</a></td>
+</tr>
+</tbody></table><!-- VIEW IN BROSWER TABLE ENDS HERE -->
+</td>
+</tr><!-- VIEW IN BROSWER ROW ENDS HERE -->
+<!-- =3D=3D=3D /VIEW IN BROWSER =3D=3D=3D --->
+<!-- =3D=3D=3D HEADER BLOCK =3D=3D=3D --->
+<tr><!-- HEADER ROW STARTS HERE -->
+<td bgcolor=3D"#333333" class=3D"header-block" width=3D"600">
+<table style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 12px;b=
+order-spacing: 0; font-family: sans-serif; color:#ffffff" width=3D"100%"><!=
+-- HEADER TABLE STARTS HERE -->
+<tbody><tr>
+</tr>
+</tbody></table><!-- HEADER TABLE ENDS HERE -->
+</td>
+</tr><!-- HEADER ROW ENDS HERE -->
+<!-- =3D=3D=3D /HEADER BLOCK =3D=3D=3D --->
+<!-- WYSIWYG IS HERE -->
+<tr>
+<td valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mobile-wid=
+th-nopad" id=3D"template_container" role=3D"presentation" style=3D"font-fam=
+ily: Arial, Helvetica, sans-serif;font-size: 12px;width: 600px;max-width: 6=
+00px">
+<tbody>
+<tr>
+<td style=3D"padding-bottom:10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-row-r=
+egion-content e2ma-section" style=3D"font-family: Arial, Helvetica, sans-se=
+rif;font-size: 12px" width=3D"100%"><tbody><tr><td class=3D"e2ma-layout-col=
+umn-content"></td></tr></tbody></table> <div class=3D"e2ma-single-column-la=
+yout e2ma-section"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 12px" width=
+=3D"100%"><tbody><tr><td class=3D"e2ma-design-option-template" data-e2ma-st=
+yles=3D"background, border-left, border-right" style=3D"background-color: t=
+ransparent">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_pmbwakoz" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td style=3D"padding-bot=
+tom:5px"></td> </tr> <tr> <td class=3D"e2ma-wrapper" style=3D"padding-right=
+: 5px;padding-bottom: 5px;padding-left: 5px" valign=3D"top"> <table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Hel=
+vetica, sans-serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=
+=3D"e2ma-holder" style=3D"padding: 0" valign=3D"top"> <table border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvetica, =
+sans-serif;font-size: 12px"> <tbody><tr><td valign=3D"top"><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 12px"><tbody><tr> <td class=3D"e2ma-image-td" st=
+yle=3D"text-align: center; padding: 0px 0px 0px 0px; " valign=3D"top"> <img=
+ alt=3D"a VALIANT Effort, a monthly newsletter" border=3D"0" height=3D"126"=
+ src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225/49/27/6a/ea/afce8a86=
+56dad49fd15d2781_1180x252.png" style=3D"display: block" width=3D"590"> </td=
+> </tr></tbody></table></td></tr> </tbody></table> </td> </tr> </tbody></ta=
+ble> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_cheeeyhb" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td style=3D"padding-bot=
+tom:10px"></td> </tr> <tr> <td class=3D"e2ma-wrapper" style=3D"padding-righ=
+t: 10px;padding-bottom: 10px;padding-left: 10px" valign=3D"top"> <table bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, =
+Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td clas=
+s=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: transparent" =
+valign=3D"top"> <table style=3D"font-family: Arial, Helvetica, sans-serif;f=
+ont-size: 12px" width=3D"100%"> <tbody><tr><td align=3D"right"> <b><i>Febru=
+ary 2026</i></b> </td></tr> </tbody></table> </td> </tr> </tbody></table> <=
+/td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_xkzlamel" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 10px;background-color: t=
+ransparent" valign=3D"top"> <table align=3D"right" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvetica, sans-serif=
+;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" padding: 4px 4px =
+4px 4px; " valign=3D"top" width=3D"1%"> <div align=3D"center" style=3D"mso-=
+table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=3D"0" height=3D"21=
+8" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225/c6/8e/c1/6a/f2ff1b=
+d1bdef8976fcaece4f_600x436.png" style=3D"display: block" width=3D"300"> </d=
+iv>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content" style=3D"fon=
+t-size: 12px;line-height: 1.5"> <div class=3D"e2ma-p-div" style=3D"display:=
+ block;margin-bottom: 10px;font-size: 12px;font-weight: normal;line-height:=
+ 1.5;font-family: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 =
+!important;font-family: Arial, Helvetica, sans-serif;font-size: 18px;color:=
+ #333 !important;text-align: left"><span style=3D"line-height: 1.5"></span>=
+</div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important;line-height: 32px">Friends,<span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif"></span></h1><div class=3D"e2ma-p-div" style=
+=3D"display: block;margin-bottom: 10px;font-size: 12px;font-weight: normal;=
+line-height: 1.5;font-family: Arial, Helvetica, sans-serif;font-size: 18px;=
+color: #333 !important;font-family: Arial, Helvetica, sans-serif;font-size:=
+ 18px;color: #333 !important;margin: 0in 0in 8pt; line-height: 27px"><span =
+style=3D"line-height: 1.5"></span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;margin: 0in 0in=
+ 8pt; line-height: 27px"><span style=3D"line-height: 1.5">It seems only fit=
+ting that in the shortest month of the year, we deliver one of our longest =
+newsletters. To paraphrase Taylor Swift, <em>we have a lot going on right n=
+ow.</em><br><br>I have just returned from the <a data-name=3D"SPIE Medical =
+Imaging" data-type=3D"url" href=3D"https://nam04.safelinks.protection.outlo=
+ok.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2F8zru3r=
+b&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d248105=
+6c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C63907642215621=
+2068%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIl=
+AiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D8Eo=
+DMBnbUepiI303aYgmPeiXecVghYDfGMXLNsMu2n0%3D&amp;reserved=3D0" originalsrc=
+=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/8zru3rb" style=3D"font-weight:=
+ normal;font-weight: normal;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important;color: #006682;text-decoration: underline;font-weight: bold !imp=
+ortant;background: none !important;background-color: none !important;color:=
+ #006682;text-decoration: underline;font-weight: bold !important;background=
+: none !important;background-color: none !important;color: #006682;text-dec=
+oration: underline;font-weight: bold !important;background: none !important=
+;background-color: none !important">SPIE Medical Imaging</a> conference, wh=
+ere an energetic and creative Vanderbilt cohort, pictured above, presented =
+more than 50 papers and sessions and took home honors across image processi=
+ng, informatics, computer aided diagnosis, and AI in medicine. Our awardees=
+ included graduate students, medical students, visiting scholars, and under=
+graduates. Together, they are pushing boundaries and asking fundamental que=
+stions: <em>What does it mean to learn? What does it mean to create? What d=
+oes it mean to discover as partners with AI?</em><br><br>Back in Nashville,=
+ that same energy continues. I am deeply grateful to <strong>Jesse Spencer =
+Smith</strong> and <strong>Alan Karns</strong> for guest lecturing in my St=
+udio in AI course and helping us explore how to integrate AI into meaningfu=
+l projects. Across campus, our scholars are contributing to discoveries tha=
+t span disciplines, from planetary science to proteomics, from harmonizatio=
+n in brain MRI to translational work in bronchoscopy and beyond, as reflect=
+ed in this month=E2=80=99s <em>Alchemists=E2=80=99 Corner</em>.<br><br>At t=
+he same time, AI opportunities are accelerating across Nashville and Middle=
+ Tennessee. Industry partners are spinning out of Vanderbilt and others are=
+ joining our circle, eager to translate the ideas and momentum here into re=
+al world innovation. I value the early conversations just as much as the fu=
+lly formed partnerships. Each represents a spark.<br><br>This spring, we wi=
+ll amplify that spark through our <strong><a data-type=3D"url" href=3D"http=
+s://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%=
+2Fclick%2Fwiqowm%2Fw6syclcc%2Fossu3rb&amp;data=3D05%7C02%7Cbennett.landman%=
+40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b4506=
+7fa80faecad%7C0%7C0%7C639076422156252149%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU=
+1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyf=
+Q%3D%3D%7C0%7C%7C%7C&amp;sdata=3D0yz%2FVrCkxe5TGADuUEyqASZGYK3fGyqPngIhsDBC=
+EsQ%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6s=
+yclcc/ossu3rb" style=3D"font-weight: normal;font-weight: normal;color: #006=
+682;text-decoration: underline;font-weight: bold !important;background: non=
+e !important;background-color: none !important;color: #006682;text-decorati=
+on: underline;font-weight: bold !important;background: none !important;back=
+ground-color: none !important;color: #006682;text-decoration: underline;fon=
+t-weight: bold !important;background: none !important;background-color: non=
+e !important;color: #006682;text-decoration: underline;font-weight: bold !i=
+mportant;background: none !important;background-color: none !important;font=
+-weight: inherit">Discover AI</a></strong> event and a new <strong>PITCH</s=
+trong> competition. AI Scholars will present three-minute, single-slide vis=
+ions for transformative pilot projects, bold resource investments, or bound=
+ary-pushing experiments. A distinguished panel of external judges will allo=
+cate real funding to the ideas that spark their imagination, serving as ent=
+repreneurial catalysts for innovation&nbsp;in our dynamic research communit=
+y. Along with live AI demonstrations and dedicated networking time, Discove=
+r AI will help us dream boldly and build wisely.<br><br>One thing is certai=
+n: there is never a boring day at VALIANT. I look forward to connecting wit=
+h you this spring, whether electronically, in person, or through carrier pi=
+geon.<br></span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;margin: 0in 0in=
+ 8pt; line-height: 27px"><span style=3D"line-height: 1.5">Warmly,&nbsp;<br>=
+<span class=3D"e2ma-style" style=3D"font-family: Arial, Helvetica, sans-ser=
+if"><b><span class=3D"e2ma-style" style=3D"font-size: 18px">Bennett</span><=
+/b></span><span>&nbsp;</span>&nbsp;</span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_jqyimvrs" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_sorsvsem" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helveti=
+ca, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pad=
+ding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"cen=
+ter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"146" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/b6/37/de/18/c9b3fb4c28ccd36fb430354b_440x292.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content e2ma-content-=
+block" style=3D"font-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">Discover AI 2026<strong><br></strong></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5">VALIANT's <a data-name=3D"Discover AI" data-=
+type=3D"url" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3D=
+https%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2F4ktu3rb&amp;data=3D0=
+5%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb45=
+9%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156278784%7CUnknown=
+%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIs=
+IkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DXDBWoZNYb9BDZAGiv=
+FP%2Fa4rKEVUihik%2BYcF0DHfzN%2BA%3D&amp;reserved=3D0" originalsrc=3D"https:=
+//t.e2ma.net/click/wiqowm/w6syclcc/4ktu3rb" style=3D"font-weight: normal;fo=
+nt-weight: normal;color: #006682;text-decoration: underline;font-weight: bo=
+ld !important;background: none !important;background-color: none !important=
+;color: #006682;text-decoration: underline;font-weight: bold !important;bac=
+kground: none !important;background-color: none !important;color: #006682;t=
+ext-decoration: underline;font-weight: bold !important;background: none !im=
+portant;background-color: none !important;color: #006682;text-decoration: u=
+nderline;font-weight: bold !important;background: none !important;backgroun=
+d-color: none !important">Discover AI</a>&nbsp;on <strong><em>April 24, 202=
+6</em></strong> will bring our community together for a day of artificial i=
+ntelligence in action, featuring interactive demos, industry and organizati=
+onal partners, and an evening reception designed to spark new collaboration=
+s. As part of the event, students can compete in both a PITCH competition a=
+nd an AI Demo competition for funding and recognition to accelerate their i=
+deas, and VALIANT Fellows are receiving early access to nominate students a=
+nd labs before applications open university wide. This is an opportunity to=
+ elevate emerging AI research, strengthen interdisciplinary connections, an=
+d highlight the innovative work already happening within our center while h=
+elping the next generation of projects take shape.<br> </span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_akrrckjo" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_mcwdfayd" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"right" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pa=
+dding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"169" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/4e/ea/40/60/c896220c9a10348bd3666e62_440x338.jpg" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content" style=3D"fon=
+t-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">Building Tools That Translate<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"><em>We continue our profile series on the VALIANT commun=
+ity with our most recent member...</em><strong> AI Scholar Yimeng Dou=E2=80=
+=99s</strong> career sits at the intersection of hardware, algorithms, and =
+clinical reality.<br><br>As an undergraduate at UC Davis, he designed circu=
+it boards and signal compression strategies to enhance positron emission to=
+mography (PET) imaging systems. He later helped build PET analysis pipeline=
+s and deep learning frameworks for biomedical applications. Along the way, =
+he co-founded a student startup aimed at helping adolescents with chronic d=
+isease transition into adult care, learning firsthand that innovation requi=
+res both technology and a viable path to impact. During his PhD at Wisconsi=
+n, Yimeng advanced multimodal medical image registration and freehand 3D ul=
+trasound reconstruction, earning recognition in international challenges an=
+d publishing in leading venues.<br><br>What brought him to MASI is a convic=
+tion that data matters. Deep learning in medicine must grapple with real-wo=
+rld variability across devices, institutions, and patient populations. He i=
+s particularly intrigued by image-based search across large clinical archiv=
+es, asking how we might use one image to retrieve similar cases and reduce =
+diagnostic ambiguity.<br><br>New to Nashville (joining VALIANT this month),=
+ he has already observed that people here are surprisingly friendly. We are=
+ delighted that his next chapter, and his next set of big questions, will u=
+nfold with us.</span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_xqpmsdxv" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_emdemfzh" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r e2ma-image-td" style=3D"padding-right: 0;padding-bottom: 0;padding-left: =
+0;font-size: 12px;line-height: 1.5" valign=3D"top"> <table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvetica, sa=
+ns-serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-hol=
+der" style=3D"padding: 20px 40px 20px 40px;background-color: transparent" v=
+align=3D"top"> <div class=3D"e2ma-content-block">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">VALIANT Ventures<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5">Our scientists are breaking new ground:</span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<div><ul><li style=3D"font-family: Arial, Helvetica, sans-serif;font-size: =
+18px;color: #333 !important;font-family: Arial, Helvetica, sans-serif;font-=
+size: 18px;color: #333 !important"><strong>Dr. Can Luo</strong>, who succes=
+sfully passed her <a data-name=3D"PhD defense on January 21" data-type=3D"u=
+rl" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%=
+2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fkduu3rb&amp;data=3D05%7C02%7C=
+bennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7=
+f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156312694%7CUnknown%7CTWFpbG=
+Zsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiT=
+WFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Dzq%2B%2BeeEuZTTPxoDfv%2FL%=
+2FXeOCfrFrqmMvjX5rEoLVuJ0%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2m=
+a.net/click/wiqowm/w6syclcc/kduu3rb" style=3D"font-weight: normal;font-weig=
+ht: normal;color: #006682;text-decoration: underline;font-weight: bold !imp=
+ortant;background: none !important;background-color: none !important;color:=
+ #006682;text-decoration: underline;font-weight: bold !important;background=
+: none !important;background-color: none !important;color: #006682;text-dec=
+oration: underline;font-weight: bold !important;background: none !important=
+;background-color: none !important;color: #006682;text-decoration: underlin=
+e;font-weight: bold !important;background: none !important;background-color=
+: none !important">PhD defense on January 21</a>, has received the prestigi=
+ous Outstanding Doctoral Student Award.&nbsp;&nbsp;She has also accepted a =
+postdoctoral position with Professor Evan Eichler at the University of Wash=
+ington, a world leader in structural variation and population genomics, whe=
+re she will begin in April. Her research will focus on developing computati=
+onal methods for analyzing genome-wide structural variation in large-scale =
+long-read sequencing datasets, including graph-based variant discovery and =
+collaborative studies with major genomics consortia to uncover disease asso=
+ciations and population genetic patterns.</li><li style=3D"font-family: Ari=
+al, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><st=
+rong>Lily Gao </strong>was selected as runner-up for the<a data-name=3D" SP=
+IE Medical Imaging Wagner all-conference best student paper " data-type=3D"=
+url" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A=
+%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2F05uu3rb&amp;data=3D05%7C02%7=
+Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a=
+7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156344881%7CUnknown%7CTWFpb=
+GZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoi=
+TWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Dld1yR6WON13ElCWlEfWbwvalQ=
+P34louVS8zMHrb3f%2B8%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net=
+/click/wiqowm/w6syclcc/05uu3rb" style=3D"font-weight: normal;font-weight: n=
+ormal;color: #006682;text-decoration: underline;font-weight: bold !importan=
+t;background: none !important;background-color: none !important;color: #006=
+682;text-decoration: underline;font-weight: bold !important;background: non=
+e !important;background-color: none !important;color: #006682;text-decorati=
+on: underline;font-weight: bold !important;background: none !important;back=
+ground-color: none !important;color: #006682;text-decoration: underline;fon=
+t-weight: bold !important;background: none !important;background-color: non=
+e !important"> SPIE Medical Imaging Wagner all-conference best student pape=
+r </a>award!&nbsp;</li><li style=3D"font-family: Arial, Helvetica, sans-ser=
+if;font-size: 18px;color: #333 !important;font-family: Arial, Helvetica, sa=
+ns-serif;font-size: 18px;color: #333 !important"><strong>Owen Dong and Adam=
+ Saunders</strong>&nbsp;took <a data-name=3D"home first and third place at =
+their 3-minute poster competitions at the SPIE Medical Imaging Conference" =
+data-type=3D"url" href=3D"https://nam04.safelinks.protection.outlook.com/?u=
+rl=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fgyvu3rb&amp;dat=
+a=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de74=
+9eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156372505%7CUn=
+known%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4=
+zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DZeeXuMIGXURL=
+4dFnuo5AJaEn%2FLZqKmdFpW00Jp4T7zc%3D&amp;reserved=3D0" originalsrc=3D"https=
+://t.e2ma.net/click/wiqowm/w6syclcc/gyvu3rb" style=3D"font-weight: normal;f=
+ont-weight: normal;color: #006682;text-decoration: underline;font-weight: b=
+old !important;background: none !important;background-color: none !importan=
+t;color: #006682;text-decoration: underline;font-weight: bold !important;ba=
+ckground: none !important;background-color: none !important;color: #006682;=
+text-decoration: underline;font-weight: bold !important;background: none !i=
+mportant;background-color: none !important;color: #006682;text-decoration: =
+underline;font-weight: bold !important;background: none !important;backgrou=
+nd-color: none !important">home first and third place at their 3-minute pos=
+ter competitions at the SPIE Medical Imaging Conference</a> (awarded by the=
+ Journal of Medical Imaging).&nbsp;</li><li style=3D"font-family: Arial, He=
+lvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ari=
+al, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><a data-n=
+ame=3D"Eleanor Liard" data-type=3D"url" href=3D"https://nam04.safelinks.pro=
+tection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6sy=
+clcc%2Fwqwu3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c1=
+0fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C6=
+39076422156411103%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwL=
+jAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&am=
+p;sdata=3DLWEe3O1i2DxzBOW6eUyJ%2Fe1VMDVx7UzuufLNdnRDS1g%3D&amp;reserved=3D0=
+" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/wqwu3rb" style=3D=
+"font-weight: normal;font-weight: normal;color: #006682;text-decoration: un=
+derline;font-weight: bold !important;background: none !important;background=
+-color: none !important;color: #006682;text-decoration: underline;font-weig=
+ht: bold !important;background: none !important;background-color: none !imp=
+ortant;color: #006682;text-decoration: underline;font-weight: bold !importa=
+nt;background: none !important;background-color: none !important;color: #00=
+6682;text-decoration: underline;font-weight: bold !important;background: no=
+ne !important;background-color: none !important">Eleanor Liard</a>'s work w=
+as selected as an SPIE Image Processing Deep Dive presentaiton.&nbsp;</li><=
+/ul></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_anbcjibe" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_enrmhdru" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helveti=
+ca, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pad=
+ding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"cen=
+ter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"123" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/7b/01/47/a1/030caea0f2569c944275effa_440x246.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content e2ma-content-=
+block" style=3D"font-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">VALIANT's AI in the Classroom<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5">The <a data-name=3D"AI in the Classroom Facu=
+lty Seminar Series " data-type=3D"url" href=3D"https://nam04.safelinks.prot=
+ection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syc=
+lcc%2Fcjxu3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10=
+fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C63=
+9076422156439906%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLj=
+AuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp=
+;sdata=3DSMh1uCzi1N08rUE3NENb%2Bm6alCxe3r%2BG2zeqwHfVzvs%3D&amp;reserved=3D=
+0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/cjxu3rb" style=
+=3D"font-weight: normal;font-weight: normal;color: #006682;text-decoration:=
+ underline;font-weight: bold !important;background: none !important;backgro=
+und-color: none !important;color: #006682;text-decoration: underline;font-w=
+eight: bold !important;background: none !important;background-color: none !=
+important;color: #006682;text-decoration: underline;font-weight: bold !impo=
+rtant;background: none !important;background-color: none !important;color: =
+#006682;text-decoration: underline;font-weight: bold !important;background:=
+ none !important;background-color: none !important">AI in the Classroom Fac=
+ulty Seminar Series </a>creates a candid, faculty led space for Vanderbilt =
+and VUMC educators to share real experiences, challenges, and practical str=
+ategies for navigating artificial intelligence in higher education. From re=
+thinking assessments to addressing academic integrity, these discussion dri=
+ven sessions focus on what is actually happening in our classrooms and how =
+we respond thoughtfully, together.<br> </span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_iodamksx" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_qklycgrb" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"right" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pa=
+dding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"88" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225/=
+fb/60/3c/62/d952ca813b8ecd9f3fd739cf_440x176.png" style=3D"display: block" =
+width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content" style=3D"fon=
+t-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">DSI's&nbsp;AI Days 2026&nbsp;<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"><a data-name=3D"AI Days 2026" data-type=3D"url" href=3D"=
+https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.=
+net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fsbyu3rb&amp;data=3D05%7C02%7Cbennett.land=
+man%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b=
+45067fa80faecad%7C0%7C0%7C639076422156463936%7CUnknown%7CTWFpbGZsb3d8eyJFbX=
+B0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUI=
+joyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DoWCuS2KhltU2lMKbVKZu4aXbP4fO0THy5a12GI=
+aD9K4%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w=
+6syclcc/sbyu3rb" style=3D"font-weight: normal;font-weight: normal;color: #0=
+06682;text-decoration: underline;font-weight: bold !important;background: n=
+one !important;background-color: none !important;color: #006682;text-decora=
+tion: underline;font-weight: bold !important;background: none !important;ba=
+ckground-color: none !important;color: #006682;text-decoration: underline;f=
+ont-weight: bold !important;background: none !important;background-color: n=
+one !important;color: #006682;text-decoration: underline;font-weight: bold =
+!important;background: none !important;background-color: none !important">A=
+I Days 2026</a> brings Vanderbilt=E2=80=99s community together for two days=
+ of hands on workshops, research showcases, and cross disciplinary conversa=
+tions focused on generative AI and agentic systems. Built around the theme =
+Come with Ideas Leave with Solutions, the conference is designed to help pa=
+rticipants move beyond inspiration and walk away with practical strategies =
+they can immediately apply to their academic and scholarly work.<br></span>=
+</div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_oqemtknx" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_wqhulsoy" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helveti=
+ca, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pad=
+ding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"cen=
+ter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"65" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225/=
+89/5b/4b/9e/17a7a5d6eb0c2daa18a1a0f1_440x130.png" style=3D"display: block" =
+width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content e2ma-content-=
+block" style=3D"font-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">THRIVE-AI&nbsp;</h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5">VALIANT is proud to be part of <a data-name=
+=3D"THRIVE-AI" data-type=3D"url" href=3D"https://nam04.safelinks.protection=
+.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2F=
+83yu3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d=
+2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C63907642=
+2156490878%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAw=
+MCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=
+=3D0RjVJeiAtZ4KOTNMQ%2F9%2BC07%2BwVt6jlSMViqk2eJH8%2F4%3D&amp;reserved=3D0"=
+ originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/83yu3rb" style=3D"=
+font-weight: normal;font-weight: normal;color: #006682;text-decoration: und=
+erline;font-weight: bold !important;background: none !important;background-=
+color: none !important;color: #006682;text-decoration: underline;font-weigh=
+t: bold !important;background: none !important;background-color: none !impo=
+rtant;color: #006682;text-decoration: underline;font-weight: bold !importan=
+t;background: none !important;background-color: none !important;color: #006=
+682;text-decoration: underline;font-weight: bold !important;background: non=
+e !important;background-color: none !important">THRIVE-AI</a>, a statewide =
+effort uniting Tennessee institutions to build interdisciplinary AI and mac=
+hine learning capacity. Through collaborative workshops and partnerships ac=
+ross Knoxville, Nashville, and Memphis, the initiative empowers emerging re=
+searchers to develop ethical, AI driven solutions that address critical hea=
+lth disparities across the region.<br></span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_bpwpqboi" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_irommbiu" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"right" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pa=
+dding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"220" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/19/72/1a/1d/0c7e6d6058a055888fd2ae0e_440x440.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content" style=3D"fon=
+t-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">A Deeper Dive into the Brain=E2=80=99s Networked Waters<br>=
+</h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5">On March 17 from 1 to 2PM CST, the VALIANT Deeper Dive S=
+eminar Series welcomes <strong>Weifeng Yu </strong>from the University of V=
+irginia for a focused exploration of graph learning in multimodal neuroimag=
+ing. His talk,&nbsp;<em>Integrating Multimodal Imaging and Non Imaging Data=
+ via Graph Learning</em>, will chart how functional connectivity and behavi=
+oral characteristics can be woven together to better differentiate psychiat=
+ric disorders, highlighting the role of thalamic and network level patterns=
+ in adolescent neurodevelopment.<br></span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_uyztpjhk" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_lllethxx" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helveti=
+ca, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pad=
+ding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"cen=
+ter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"224" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/00/f7/2f/03/50631e8e3cc360c4db2c1946_440x448.jpg" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content e2ma-content-=
+block" style=3D"font-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">Editor's Choice Award<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"><strong>AI Fellow Kurt Schilling's </strong>=
+work on preclinical diffusion MRI was selected as an <a data-name=3D"Editor=
+=E2=80=99s Pick of&nbsp;Magnetic Resonance in Medicine" data-type=3D"url" h=
+ref=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2F=
+t.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fowzu3rb&amp;data=3D05%7C02%7Cbenne=
+tt.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3=
+be4ab3b45067fa80faecad%7C0%7C0%7C639076422156521841%7CUnknown%7CTWFpbGZsb3d=
+8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbC=
+IsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D1%2BlXigsQL8oqrkgiQ7%2FrUKN4DTG=
+inC3TqjugL2SOJCE%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/cli=
+ck/wiqowm/w6syclcc/owzu3rb" style=3D"font-weight: normal;font-weight: norma=
+l;color: #006682;text-decoration: underline;font-weight: bold !important;ba=
+ckground: none !important;background-color: none !important;color: #006682;=
+text-decoration: underline;font-weight: bold !important;background: none !i=
+mportant;background-color: none !important;color: #006682;text-decoration: =
+underline;font-weight: bold !important;background: none !important;backgrou=
+nd-color: none !important;color: #006682;text-decoration: underline;font-we=
+ight: bold !important;background: none !important;background-color: none !i=
+mportant">Editor=E2=80=99s Pick of&nbsp;Magnetic Resonance in Medicine</a>,=
+ highlighting practical guidance for rigorous in vivo small animal imaging.=
+ This recognition underscores the growing impact of our collaborative effor=
+ts to strengthen standards in translational diffusion MRI research.</span><=
+/div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_ezfhhjrn" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_awvregbz" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"right" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pa=
+dding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"123" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/0a/60/a0/e7/1ce0a4eae1685c300819cbc7_440x246.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content" style=3D"fon=
+t-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">From Brain Tracts to Beating Hearts<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5">VALIANT and VUIIS investigators <strong>Dr. Bennett Land=
+man and Dr. Kurt Schilling</strong> have received a Leeds=E2=80=93Vanderbil=
+t Pump Priming Seed Grant with Dr. Irvin Teh (University of Leeds) for =E2=
+=80=9CAdvancing 3D microstructural characterisation in whole heart: From tr=
+acts to sheetlets.=E2=80=9D&nbsp; The project will translate connectomics-s=
+tyle diffusion MRI analysis into the heart - using whole-heart tractography=
+ and tract-/sheetlet-level phenotyping to quantify how cardiomyocyte and sh=
+eetlet architecture differs between relaxed vs. contractured hearts, genera=
+ting pilot data for sustained collaboration.&nbsp; This work combines Landm=
+an=E2=80=99s expertise in large-scale image processing and analysis, Schill=
+ing=E2=80=99s expertise in tractography/tractometry pipelines, and Teh=E2=
+=80=99s expertise in cardiac diffusion MRI, imaging, and anatomy, building =
+on their broader =E2=80=9Ctractography beyond the brain=E2=80=9D collaborat=
+ion.<br></span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_zclmqhsv" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_fsnfwcte" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"right" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pa=
+dding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"231" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/cc/c4/47/28/8ffa7423c042cc5733dfc08a_440x462.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content" style=3D"fon=
+t-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">Keeping in touch<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5">We cut through announcement overload by unifying AI rela=
+ted seminars and visits into <a data-name=3D"one shared calendar" data-type=
+=3D"url" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttp=
+s%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2F4o0u3rb&amp;data=3D05%7C=
+02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7C=
+ba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156543856%7CUnknown%7CT=
+WFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFO=
+IjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D%2FY2xFAG7kHTnIBbcn89=
+hYnCGQAZLpG0Nz%2FTH%2BvuaeRc%3D&amp;reserved=3D0" originalsrc=3D"https://t.=
+e2ma.net/click/wiqowm/w6syclcc/4o0u3rb" style=3D"font-weight: normal;font-w=
+eight: normal;color: #006682;text-decoration: underline;font-weight: bold !=
+important;background: none !important;background-color: none !important;col=
+or: #006682;text-decoration: underline;font-weight: bold !important;backgro=
+und: none !important;background-color: none !important;color: #006682;text-=
+decoration: underline;font-weight: bold !important;background: none !import=
+ant;background-color: none !important;color: #006682;text-decoration: under=
+line;font-weight: bold !important;background: none !important;background-co=
+lor: none !important">one shared calendar</a> that helps our community disc=
+over ideas beyond their home area and show up for the conversations that sp=
+ark the best new thinking.<br></span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_fcuybmih" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_ayvbtvvd" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helveti=
+ca, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pad=
+ding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"cen=
+ter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"123" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/de/37/11/83/5afbd30c17284a39a2060b7d_440x246.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content e2ma-content-=
+block" style=3D"font-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">Deep Thinking, Shared<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5">We were delighted to host <strong>Mengqi Wu<=
+/strong> from the University of North Carolina at Chapel Hill for a VALIANT=
+ Deeper Dive seminar on multi site brain MRI harmonization. His presentatio=
+n sparked thoughtful technical discussion and exactly the kind of engaged e=
+xchange that makes this series so valuable to our community.<br></span></di=
+v>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_sdkxscca" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_efpmekfr" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"right" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pa=
+dding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"220" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/2e/7c/52/d7/6cccddab446c464f3158e080_440x440.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content" style=3D"fon=
+t-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">Letting the Students Use AI<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"><a data-name=3D"Faculty Seminar February 25th @ 12pm" da=
+ta-type=3D"url" href=3D"https://nam04.safelinks.protection.outlook.com/?url=
+=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fkh1u3rb&amp;data=
+=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749=
+eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156570592%7CUnk=
+nown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4z=
+MiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Ds9yg%2By%2Buq=
+6xguZkMW0kAGNXMdK5owBafXbdoKHRHYDw%3D&amp;reserved=3D0" originalsrc=3D"http=
+s://t.e2ma.net/click/wiqowm/w6syclcc/kh1u3rb" style=3D"font-weight: normal;=
+font-weight: normal;color: #006682;text-decoration: underline;font-weight: =
+bold !important;background: none !important;background-color: none !importa=
+nt;color: #006682;text-decoration: underline;font-weight: bold !important;b=
+ackground: none !important;background-color: none !important;color: #006682=
+;text-decoration: underline;font-weight: bold !important;background: none !=
+important;background-color: none !important;color: #006682;text-decoration:=
+ underline;font-weight: bold !important;background: none !important;backgro=
+und-color: none !important">Faculty Seminar March 3rd @ 9am</a>:&nbsp;Shoul=
+d students be allowed to use AI in coursework=E2=80=94and if so, under what=
+ conditions? This session explores practical approaches to integrating AI i=
+nto assignments while maintaining academic rigor and integrity. We=E2=80=99=
+ll discuss policy design, transparency expectations, and how to distinguish=
+ between productive AI use and overreliance.</span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_pqyojdjy" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_antkswsz" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helveti=
+ca, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pad=
+ding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"cen=
+ter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"220" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/c9/d1/3c/7e/3b5a644340835d87b7c07351_440x440.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content e2ma-content-=
+block" style=3D"font-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">Using AI to Improve Student Feedback<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"><a data-name=3D"Faculty Seminar February 25t=
+h @ 12pm" data-type=3D"url" href=3D"https://nam04.safelinks.protection.outl=
+ook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2F091u3=
+rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d24810=
+56c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C6390764221566=
+02464%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsI=
+lAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Dd8=
+HghDKyFxassNE7uWLl%2F7nuxS7rkwIVphcuS%2BAZOKA%3D&amp;reserved=3D0" original=
+src=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/091u3rb" style=3D"font-weig=
+ht: normal;font-weight: normal;color: #006682;text-decoration: underline;fo=
+nt-weight: bold !important;background: none !important;background-color: no=
+ne !important;color: #006682;text-decoration: underline;font-weight: bold !=
+important;background: none !important;background-color: none !important;col=
+or: #006682;text-decoration: underline;font-weight: bold !important;backgro=
+und: none !important;background-color: none !important;color: #006682;text-=
+decoration: underline;font-weight: bold !important;background: none !import=
+ant;background-color: none !important">Faculty Seminar March 6th, 2026 @ 12=
+pm</a>:&nbsp;AI can generate summaries, draft comments, and even suggest im=
+provements=E2=80=94but how can it meaningfully enhance the feedback process=
+ without diminishing instructor voice or student growth? This discussion fo=
+cuses on ways AI might streamline grading workflows, improve feedback quali=
+ty, and support more timely responses while keeping faculty firmly in the l=
+oop.</span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_wizginen" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_mgiaorll" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"right" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pa=
+dding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"221" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/13/69/e7/6d/60255690e3ca7295fcd38371_440x442.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content" style=3D"fon=
+t-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">When the Code Works but the Student Didn=E2=80=99t Write It=
+<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"><a data-name=3D"Faculty Seminar March 18th @ 12pm" data-=
+type=3D"url" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3D=
+https%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fg22u3rb&amp;data=3D0=
+5%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb45=
+9%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156630088%7CUnknown=
+%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIs=
+IkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D54wDlude22hm%2BKT=
+zyd17mr0jWOtmjmNuzsMNnSmUAKs%3D&amp;reserved=3D0" originalsrc=3D"https://t.=
+e2ma.net/click/wiqowm/w6syclcc/g22u3rb" style=3D"font-weight: normal;font-w=
+eight: normal;color: #006682;text-decoration: underline;font-weight: bold !=
+important;background: none !important;background-color: none !important;col=
+or: #006682;text-decoration: underline;font-weight: bold !important;backgro=
+und: none !important;background-color: none !important;color: #006682;text-=
+decoration: underline;font-weight: bold !important;background: none !import=
+ant;background-color: none !important;color: #006682;text-decoration: under=
+line;font-weight: bold !important;background: none !important;background-co=
+lor: none !important">Faculty Seminar March 18th @ 12pm</a>. In technical c=
+ourses, AI can produce fully functioning code in seconds. But if the soluti=
+on works, how do we assess whether the student understands it? This session=
+ examines strategies for evaluating comprehension, reinforcing learning obj=
+ectives, and redesigning assessments to prioritize reasoning over output.</=
+span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_scnmaahz" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_nejdqvww" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helveti=
+ca, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pad=
+ding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"cen=
+ter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"220" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/1e/49/b9/2f/c81994ca46bd93da0ecd15ef_440x440.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content e2ma-content-=
+block" style=3D"font-size: 12px;line-height: 1.5">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">I Think My Student Used AI to Cheat. What Do I Do?<br></h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"><a data-name=3D"Faculty Seminar March 24th @=
+ 8:30am" data-type=3D"url" href=3D"https://nam04.safelinks.protection.outlo=
+ok.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fwu3u3r=
+b&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d248105=
+6c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C63907642215665=
+5025%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIl=
+AiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DGpI=
+Cg2RzHNQNXgDNk6VOiNs14rJ84It2YEBV1TzKpRs%3D&amp;reserved=3D0" originalsrc=
+=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/wu3u3rb" style=3D"font-weight:=
+ normal;font-weight: normal;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important;color: #006682;text-decoration: underline;font-weight: bold !imp=
+ortant;background: none !important;background-color: none !important;color:=
+ #006682;text-decoration: underline;font-weight: bold !important;background=
+: none !important;background-color: none !important;color: #006682;text-dec=
+oration: underline;font-weight: bold !important;background: none !important=
+;background-color: none !important">Faculty Seminar March 24th @ 8:30am</a>=
+.&nbsp;As AI tools become harder to detect and easier to access, faculty ar=
+e navigating new gray areas around academic integrity. This conversation ad=
+dresses how to respond when AI misuse is suspected, the limitations of dete=
+ction tools, and how to approach these situations thoughtfully and consiste=
+ntly.</span></div>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ar=
+ial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><s=
+pan style=3D"line-height: 1.5"></span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_rppxpreu" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_ecrwlwtu" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r" style=3D"padding-right: 0;padding-bottom: 0;padding-left: 0" valign=3D"t=
+op"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+family: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%"> <tbod=
+y><tr> <td class=3D"e2ma-holder" style=3D"padding: 20px 40px 20px 40px;back=
+ground-color: transparent" valign=3D"top"> <table align=3D"right" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvet=
+ica, sans-serif;font-size: 12px" width=3D"1%"> <tbody><tr> <td style=3D" pa=
+dding: 10px 10px 10px 10px; " valign=3D"top" width=3D"1%"> <div align=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:9"> <img alt=3D"" border=
+=3D"0" height=3D"220" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225=
+/12/c8/d8/3a/ca047a8dd3078379ac9e5c7c_440x440.png" style=3D"display: block"=
+ width=3D"220"> </div>
+</td> </tr> </tbody></table> <div class=3D"e2ma-combo-content" style=3D"fon=
+t-size: 12px;line-height: 1.5"> <h1 style=3D"display: block;font-size: 30px=
+;font-weight: bold;margin: 0;line-height: 1.3;margin: 0;padding: 0;border: =
+0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: Arial=
+, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006682 !i=
+mportant;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;verti=
+cal-align: baseline;font-family: Arial, Helvetica, sans-serif;font-size: 32=
+px;font-weight: bold;color: #006682 !important">Looking for an AI Internshi=
+p?</h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5">The VALIANT-jobs listserv is active with a focus with po=
+sitions in Nashville. Join us at list.vanderbilt.edu&nbsp;</span></div>
+</div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_dmvaqnzp" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_sesccvbx" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-wrappe=
+r e2ma-image-td" style=3D"padding-right: 0;padding-bottom: 0;padding-left: =
+0;font-size: 12px;line-height: 1.5" valign=3D"top"> <table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Helvetica, sa=
+ns-serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=3D"e2ma-hol=
+der" style=3D"padding: 20px 40px 20px 40px;background-color: transparent" v=
+align=3D"top"> <div class=3D"e2ma-content-block">
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5"></span></div>
+<h1 style=3D"display: block;font-size: 30px;font-weight: bold;margin: 0;lin=
+e-height: 1.3;margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;=
+vertical-align: baseline;font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 32px;font-weight: bold;color: #006682 !important;margin: 0;padding: 0;bo=
+rder: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 32px;font-weight: bold;color: #006=
+682 !important">Alchemists' Corner</h1>
+<div class=3D"e2ma-p-div" style=3D"display: block;margin-bottom: 10px;font-=
+size: 12px;font-weight: normal;line-height: 1.5;font-family: Arial, Helveti=
+ca, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, H=
+elvetica, sans-serif;font-size: 18px;color: #333 !important"><span style=3D=
+"line-height: 1.5">We have a lot going on right now. Here is a selection of=
+ what has hit <a data-name=3D"Scopus" data-type=3D"url" href=3D"https://nam=
+04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick=
+%2Fwiqowm%2Fw6syclcc%2Fcn4u3rb&amp;data=3D05%7C02%7Cbennett.landman%40vande=
+rbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80fa=
+ecad%7C0%7C0%7C639076422156677427%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiO=
+nRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D=
+%7C0%7C%7C%7C&amp;sdata=3D6mbzRefi8jC8Ku30sh488W9MRb8hE4MT8d0y235c0Qk%3D&am=
+p;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/cn4=
+u3rb" style=3D"font-weight: normal;font-weight: normal;color: #006682;text-=
+decoration: underline;font-weight: bold !important;background: none !import=
+ant;background-color: none !important;color: #006682;text-decoration: under=
+line;font-weight: bold !important;background: none !important;background-co=
+lor: none !important;color: #006682;text-decoration: underline;font-weight:=
+ bold !important;background: none !important;background-color: none !import=
+ant;color: #006682;text-decoration: underline;font-weight: bold !important;=
+background: none !important;background-color: none !important">Scopus</a> f=
+rom our community since last month.&nbsp;</span></div>
+<ul><li style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 18px;=
+color: #333 !important;font-family: Arial, Helvetica, sans-serif;font-size:=
+ 18px;color: #333 !important"><a data-type=3D"url" href=3D"https://nam04.sa=
+felinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwi=
+qowm%2Fw6syclcc%2Fsf5u3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt=
+.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%=
+7C0%7C0%7C639076422156701189%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydW=
+UsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%=
+7C%7C%7C&amp;sdata=3DpVQRUwagW2sDJoP5yFppZq2VB0Ts0%2B4qxT5fAtCvt20%3D&amp;r=
+eserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/sf5u3r=
+b" style=3D"font-weight: normal;font-weight: normal;color: #006682;text-dec=
+oration: underline;font-weight: bold !important;background: none !important=
+;background-color: none !important;color: #006682;text-decoration: underlin=
+e;font-weight: bold !important;background: none !important;background-color=
+: none !important;color: #006682;text-decoration: underline;font-weight: bo=
+ld !important;background: none !important;background-color: none !important=
+;color: #006682;text-decoration: underline;font-weight: bold !important;bac=
+kground: none !important;background-color: none !important">Mixed-model and=
+ transcriptome-wide association analyses identify transcription factors and=
+ genes associated with colorectal cancer susceptibility</a></li><li style=
+=3D"font-family: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !=
+important;font-family: Arial, Helvetica, sans-serif;font-size: 18px;color: =
+#333 !important"><a data-name=3D"Developmental variations in recurrent spat=
+iotemporal brain propagations from childhood to adulthoodMulti-modality con=
+ditioned variational U-net for field-of-view extension in brain diffusion M=
+RICumulative lipid exposure in young adulthood and risk of midlife MASLDUNI=
+SELF: A unified network with instance normalization and self-ensembled lesi=
+on fusion for multiple sclerosis lesion segmentationAn MRI-based macro- and=
+ microstructural neuroimaging-wide association study of subsequent cognitiv=
+e impairmentEnterprise-wide simultaneous deployment of ambient scribe techn=
+ology: lessons learned from an academic health systemThe Tool for Automatic=
+ Analysis of Decoding Ambiguity (TAADA)Assessing the effectiveness of the o=
+ne paleopathology workshopCoaxial capacitor (COCA) coil for stretchable arr=
+ays in ultrahigh-field MRIFunctional and Structural Evidence of Neurofluid =
+Circuit Aberrations in Huntington DiseaseImaging the past: Dental pathologi=
+es and cardiovascular disease in Egyptian mummified remainsTOI-333b: A Nept=
+une-desert planet around an F7V starLifespan Pancreas Morphology for Contro=
+l Versus Type 2 Diabetes Using AI on Largescale Clinical ImagingInvestigati=
+ng the Feasibility of Conducting Webcam-Based Eye-Tracking Studies in Code =
+ComprehensionEvaluating the association of apolipoprotein E genotype and co=
+gnitive resilience in SuperAgersStellar Library of Differential Emission Me=
+asures and Extreme Ultraviolet Spectra: Dwarf Stars Observed by the Extreme=
+ Ultraviolet ExplorerIntegration of Data Science Modules Across Interdiscip=
+linary Courses at Multiple Institutions: Analysis of Student and Faculty Pe=
+rspectivesDemystifying the Power of Large Language Models in Graph Structur=
+e GenerationInnovation in rigid bronchoscopy=E2=80=94past, present, and fut=
+ureXc" data-type=3D"url" href=3D"https://nam04.safelinks.protection.outlook=
+.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2F875u3rb&=
+amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c=
+508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C6390764221567276=
+69%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAi=
+OiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DnniB3=
+DKXBEu%2FUn1f0Rkx%2BWjttKxCSOyTDfWTu0IgK1M%3D&amp;reserved=3D0" originalsrc=
+=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/875u3rb" style=3D"font-weight:=
+ normal;font-weight: normal;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important;color: #006682;text-decoration: underline;font-weight: bold !imp=
+ortant;background: none !important;background-color: none !important;color:=
+ #006682;text-decoration: underline;font-weight: bold !important;background=
+: none !important;background-color: none !important;color: #006682;text-dec=
+oration: underline;font-weight: bold !important;background: none !important=
+;background-color: none !important">OMG! A proteomic determinant of neurode=
+generative resiliency</a></li><li style=3D"font-family: Arial, Helvetica, s=
+ans-serif;font-size: 18px;color: #333 !important;font-family: Arial, Helvet=
+ica, sans-serif;font-size: 18px;color: #333 !important"><a data-type=3D"url=
+" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F=
+%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fo06u3rb&amp;data=3D05%7C02%7Cbe=
+nnett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f3=
+9e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156755987%7CUnknown%7CTWFpbGZs=
+b3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWF=
+pbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DMgBbDjAyovA9n%2BaITly9rJmzQr=
+Thz4mLhWPbh7O6Ggo%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/cl=
+ick/wiqowm/w6syclcc/o06u3rb" style=3D"font-weight: normal;font-weight: norm=
+al;color: #006682;text-decoration: underline;font-weight: bold !important;b=
+ackground: none !important;background-color: none !important;color: #006682=
+;text-decoration: underline;font-weight: bold !important;background: none !=
+important;background-color: none !important;color: #006682;text-decoration:=
+ underline;font-weight: bold !important;background: none !important;backgro=
+und-color: none !important;color: #006682;text-decoration: underline;font-w=
+eight: bold !important;background: none !important;background-color: none !=
+important">Developmental variations in recurrent spatiotemporal brain propa=
+gations from childhood to adulthood</a></li><li style=3D"font-family: Arial=
+, Helvetica, sans-serif;font-size: 18px;color: #333 !important;font-family:=
+ Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><a da=
+ta-type=3D"url" href=3D"https://nam04.safelinks.protection.outlook.com/?url=
+=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2F4s7u3rb&amp;data=
+=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749=
+eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156778226%7CUnk=
+nown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4z=
+MiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DBzF4f0nXQiJWY=
+bhsBbXwu2todPnwydkM3q8jMkmRYOE%3D&amp;reserved=3D0" originalsrc=3D"https://=
+t.e2ma.net/click/wiqowm/w6syclcc/4s7u3rb" style=3D"font-weight: normal;font=
+-weight: normal;color: #006682;text-decoration: underline;font-weight: bold=
+ !important;background: none !important;background-color: none !important;c=
+olor: #006682;text-decoration: underline;font-weight: bold !important;backg=
+round: none !important;background-color: none !important;color: #006682;tex=
+t-decoration: underline;font-weight: bold !important;background: none !impo=
+rtant;background-color: none !important;color: #006682;text-decoration: und=
+erline;font-weight: bold !important;background: none !important;background-=
+color: none !important">Multi-modality conditioned variational U-net for fi=
+eld-of-view extension in brain diffusion MRI</a></li><li style=3D"font-fami=
+ly: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;fon=
+t-family: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !importa=
+nt"><a data-type=3D"url" href=3D"https://nam04.safelinks.protection.outlook=
+.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fkl8u3rb&=
+amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c=
+508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C6390764221567995=
+03%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAi=
+OiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DUeYTp=
+53pliEmlyYFzt1Xqyc8eT6utjzgMVzth%2BC914s%3D&amp;reserved=3D0" originalsrc=
+=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/kl8u3rb" style=3D"font-weight:=
+ normal;font-weight: normal;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important;color: #006682;text-decoration: underline;font-weight: bold !imp=
+ortant;background: none !important;background-color: none !important;color:=
+ #006682;text-decoration: underline;font-weight: bold !important;background=
+: none !important;background-color: none !important;color: #006682;text-dec=
+oration: underline;font-weight: bold !important;background: none !important=
+;background-color: none !important">Cumulative lipid exposure in young adul=
+thood and risk of midlife MASLD</a></li><li style=3D"font-family: Arial, He=
+lvetica, sans-serif;font-size: 18px;color: #333 !important;font-family: Ari=
+al, Helvetica, sans-serif;font-size: 18px;color: #333 !important"><a data-t=
+ype=3D"url" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dh=
+ttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2F0d9u3rb&amp;data=3D05=
+%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459=
+%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156820385%7CUnknown%=
+7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsI=
+kFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Dw0yGc9GHWv5KK4xeXs=
+FhzOHKZH%2B3X3bw9oeoE%2BO7hPA%3D&amp;reserved=3D0" originalsrc=3D"https://t=
+.e2ma.net/click/wiqowm/w6syclcc/0d9u3rb" style=3D"font-weight: normal;font-=
+weight: normal;color: #006682;text-decoration: underline;font-weight: bold =
+!important;background: none !important;background-color: none !important;co=
+lor: #006682;text-decoration: underline;font-weight: bold !important;backgr=
+ound: none !important;background-color: none !important;color: #006682;text=
+-decoration: underline;font-weight: bold !important;background: none !impor=
+tant;background-color: none !important;color: #006682;text-decoration: unde=
+rline;font-weight: bold !important;background: none !important;background-c=
+olor: none !important">UNISELF: A unified network with instance normalizati=
+on and self-ensembled lesion fusion for multiple sclerosis lesion segmentat=
+ion</a></li><li style=3D"font-family: Arial, Helvetica, sans-serif;font-siz=
+e: 18px;color: #333 !important;font-family: Arial, Helvetica, sans-serif;fo=
+nt-size: 18px;color: #333 !important"><a data-name=3D"Enterprise-wide simul=
+taneous deployment of ambient scribe technology: lessons learned from an ac=
+ademic health system" data-type=3D"url" href=3D"https://nam04.safelinks.pro=
+tection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6sy=
+clcc%2Fg69u3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c1=
+0fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C6=
+39076422156841632%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwL=
+jAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&am=
+p;sdata=3DbxjQfY9UUQv%2F5es1w2SZ6jUvfYPiAMK%2BaF3ICC3UnRk%3D&amp;reserved=
+=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/g69u3rb" styl=
+e=3D"font-weight: normal;font-weight: normal;color: #006682;text-decoration=
+: underline;font-weight: bold !important;background: none !important;backgr=
+ound-color: none !important;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important;color: #006682;text-decoration: underline;font-weight: bold !imp=
+ortant;background: none !important;background-color: none !important;color:=
+ #006682;text-decoration: underline;font-weight: bold !important;background=
+: none !important;background-color: none !important">An MRI-based macro- an=
+d microstructural neuroimaging-wide association study of subsequent cogniti=
+ve impairment</a></li><li style=3D"font-family: Arial, Helvetica, sans-seri=
+f;font-size: 18px;color: #333 !important;font-family: Arial, Helvetica, san=
+s-serif;font-size: 18px;color: #333 !important"><a data-name=3D"The Tool fo=
+r Automatic Analysis of Decoding Ambiguity (TAADA)" data-type=3D"url" href=
+=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e=
+2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fwyav3rb&amp;data=3D05%7C02%7Cbennett.=
+landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4=
+ab3b45067fa80faecad%7C0%7C0%7C639076422156862493%7CUnknown%7CTWFpbGZsb3d8ey=
+JFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsI=
+ldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DedfB%2BChUqMA4bg0wStsHr007Oeqp8pS4=
+loj9lX2h5tg%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wi=
+qowm/w6syclcc/wyav3rb" style=3D"font-weight: normal;font-weight: normal;col=
+or: #006682;text-decoration: underline;font-weight: bold !important;backgro=
+und: none !important;background-color: none !important;color: #006682;text-=
+decoration: underline;font-weight: bold !important;background: none !import=
+ant;background-color: none !important;color: #006682;text-decoration: under=
+line;font-weight: bold !important;background: none !important;background-co=
+lor: none !important;color: #006682;text-decoration: underline;font-weight:=
+ bold !important;background: none !important;background-color: none !import=
+ant">Enterprise-wide simultaneous deployment of ambient scribe technology: =
+lessons learned from an academic health system</a></li><li style=3D"font-fa=
+mily: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;f=
+ont-family: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !impor=
+tant"><a data-type=3D"url" href=3D"https://nam04.safelinks.protection.outlo=
+ok.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fcrbv3r=
+b&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d248105=
+6c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C63907642215689=
+9517%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIl=
+AiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Dc93=
+KIJcL0HwQFeseOI8peE8Ybrqm%2FORl17BwAZTSrgY%3D&amp;reserved=3D0" originalsrc=
+=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/crbv3rb" style=3D"font-weight:=
+ normal;font-weight: normal;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important;color: #006682;text-decoration: underline;font-weight: bold !imp=
+ortant;background: none !important;background-color: none !important;color:=
+ #006682;text-decoration: underline;font-weight: bold !important;background=
+: none !important;background-color: none !important;color: #006682;text-dec=
+oration: underline;font-weight: bold !important;background: none !important=
+;background-color: none !important">The Tool for Automatic Analysis of Deco=
+ding Ambiguity (TAADA)</a></li><li style=3D"font-family: Arial, Helvetica, =
+sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, Helve=
+tica, sans-serif;font-size: 18px;color: #333 !important"><a data-type=3D"ur=
+l" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fsjcv3rb&amp;data=3D05%7C02%7Cb=
+ennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f=
+39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422156933229%7CUnknown%7CTWFpbGZ=
+sb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTW=
+FpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DOggcn5WDAR1wZJ8ppOT%2Fsknlt=
+6n8ZsPmqg9Pka7wmGQ%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/c=
+lick/wiqowm/w6syclcc/sjcv3rb" style=3D"font-weight: normal;font-weight: nor=
+mal;color: #006682;text-decoration: underline;font-weight: bold !important;=
+background: none !important;background-color: none !important;color: #00668=
+2;text-decoration: underline;font-weight: bold !important;background: none =
+!important;background-color: none !important;color: #006682;text-decoration=
+: underline;font-weight: bold !important;background: none !important;backgr=
+ound-color: none !important;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important">Assessing the effectiveness of the one paleopathology workshop<=
+/a></li><li style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 1=
+8px;color: #333 !important;font-family: Arial, Helvetica, sans-serif;font-s=
+ize: 18px;color: #333 !important"><a data-type=3D"url" href=3D"https://nam0=
+4.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%=
+2Fwiqowm%2Fw6syclcc%2F8bdv3rb&amp;data=3D05%7C02%7Cbennett.landman%40vander=
+bilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80fae=
+cad%7C0%7C0%7C639076422156966549%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOn=
+RydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%=
+7C0%7C%7C%7C&amp;sdata=3D8r%2F%2Bnf6ahhlr2acWOV%2BE%2BwCd7k6kwg8Jf6EtVHVwNx=
+A%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syc=
+lcc/8bdv3rb" style=3D"font-weight: normal;font-weight: normal;color: #00668=
+2;text-decoration: underline;font-weight: bold !important;background: none =
+!important;background-color: none !important;color: #006682;text-decoration=
+: underline;font-weight: bold !important;background: none !important;backgr=
+ound-color: none !important;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important;color: #006682;text-decoration: underline;font-weight: bold !imp=
+ortant;background: none !important;background-color: none !important">Coaxi=
+al capacitor (COCA) coil for stretchable arrays in ultrahigh-field MRI</a><=
+/li><li style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 18px;=
+color: #333 !important;font-family: Arial, Helvetica, sans-serif;font-size:=
+ 18px;color: #333 !important"><a data-type=3D"url" href=3D"https://nam04.sa=
+felinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwi=
+qowm%2Fw6syclcc%2Fo4dv3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt=
+.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%=
+7C0%7C0%7C639076422156993966%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydW=
+UsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%=
+7C%7C%7C&amp;sdata=3DWfebgRxlXYimgQ5JQTYwS6DTf01m6yKttKqwWY1Ct8Y%3D&amp;res=
+erved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/o4dv3rb"=
+ style=3D"font-weight: normal;font-weight: normal;color: #006682;text-decor=
+ation: underline;font-weight: bold !important;background: none !important;b=
+ackground-color: none !important;color: #006682;text-decoration: underline;=
+font-weight: bold !important;background: none !important;background-color: =
+none !important;color: #006682;text-decoration: underline;font-weight: bold=
+ !important;background: none !important;background-color: none !important;c=
+olor: #006682;text-decoration: underline;font-weight: bold !important;backg=
+round: none !important;background-color: none !important">Functional and St=
+ructural Evidence of Neurofluid Circuit Aberrations in Huntington Disease</=
+a></li><li style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 18=
+px;color: #333 !important;font-family: Arial, Helvetica, sans-serif;font-si=
+ze: 18px;color: #333 !important"><a data-type=3D"url" href=3D"https://nam04=
+.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2=
+Fwiqowm%2Fw6syclcc%2F4wev3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderb=
+ilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faec=
+ad%7C0%7C0%7C639076422157017009%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnR=
+ydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7=
+C0%7C%7C%7C&amp;sdata=3DlxkqIsMuCxn7%2Bboxf%2BH%2FmcvBV3jovQdVIjQt%2BmWhhi0=
+%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6sycl=
+cc/4wev3rb" style=3D"font-weight: normal;font-weight: normal;color: #006682=
+;text-decoration: underline;font-weight: bold !important;background: none !=
+important;background-color: none !important;color: #006682;text-decoration:=
+ underline;font-weight: bold !important;background: none !important;backgro=
+und-color: none !important;color: #006682;text-decoration: underline;font-w=
+eight: bold !important;background: none !important;background-color: none !=
+important;color: #006682;text-decoration: underline;font-weight: bold !impo=
+rtant;background: none !important;background-color: none !important">Imagin=
+g the past: Dental pathologies and cardiovascular disease in Egyptian mummi=
+fied remains</a></li><li style=3D"font-family: Arial, Helvetica, sans-serif=
+;font-size: 18px;color: #333 !important;font-family: Arial, Helvetica, sans=
+-serif;font-size: 18px;color: #333 !important"><a data-type=3D"url" href=3D=
+"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma=
+.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fkpfv3rb&amp;data=3D05%7C02%7Cbennett.lan=
+dman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3=
+b45067fa80faecad%7C0%7C0%7C639076422157045623%7CUnknown%7CTWFpbGZsb3d8eyJFb=
+XB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldU=
+IjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DPfzil%2Fh0WCNP8EW9PiYTdrqMr3AYt4qFN8E=
+WzbFHF74%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqow=
+m/w6syclcc/kpfv3rb" style=3D"font-weight: normal;font-weight: normal;color:=
+ #006682;text-decoration: underline;font-weight: bold !important;background=
+: none !important;background-color: none !important;color: #006682;text-dec=
+oration: underline;font-weight: bold !important;background: none !important=
+;background-color: none !important;color: #006682;text-decoration: underlin=
+e;font-weight: bold !important;background: none !important;background-color=
+: none !important;color: #006682;text-decoration: underline;font-weight: bo=
+ld !important;background: none !important;background-color: none !important=
+">TOI-333b: A Neptune-desert planet around an F7V star</a></li><li style=3D=
+"font-family: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !imp=
+ortant;font-family: Arial, Helvetica, sans-serif;font-size: 18px;color: #33=
+3 !important"><a data-type=3D"url" href=3D"https://nam04.safelinks.protecti=
+on.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%=
+2F0hgv3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd81=
+8d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076=
+422157080023%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMD=
+AwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sda=
+ta=3D%2F%2FNnZuTdtJRPICWKhPGts2rAQo7q7irhGHFP3ozrzKQ%3D&amp;reserved=3D0" o=
+riginalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/0hgv3rb" style=3D"fo=
+nt-weight: normal;font-weight: normal;color: #006682;text-decoration: under=
+line;font-weight: bold !important;background: none !important;background-co=
+lor: none !important;color: #006682;text-decoration: underline;font-weight:=
+ bold !important;background: none !important;background-color: none !import=
+ant;color: #006682;text-decoration: underline;font-weight: bold !important;=
+background: none !important;background-color: none !important;color: #00668=
+2;text-decoration: underline;font-weight: bold !important;background: none =
+!important;background-color: none !important">Lifespan Pancreas Morphology =
+for Control Versus Type 2 Diabetes Using AI on Largescale Clinical Imaging<=
+/a></li><li style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 1=
+8px;color: #333 !important;font-family: Arial, Helvetica, sans-serif;font-s=
+ize: 18px;color: #333 !important"><a data-type=3D"url" href=3D"https://nam0=
+4.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%=
+2Fwiqowm%2Fw6syclcc%2Fgahv3rb&amp;data=3D05%7C02%7Cbennett.landman%40vander=
+bilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80fae=
+cad%7C0%7C0%7C639076422157103098%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOn=
+RydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%=
+7C0%7C%7C%7C&amp;sdata=3DERTQCdH1VeueyMF%2BBg96YqH3rffLMsE9KZ0mwpJJn%2FY%3D=
+&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/=
+gahv3rb" style=3D"font-weight: normal;font-weight: normal;color: #006682;te=
+xt-decoration: underline;font-weight: bold !important;background: none !imp=
+ortant;background-color: none !important;color: #006682;text-decoration: un=
+derline;font-weight: bold !important;background: none !important;background=
+-color: none !important;color: #006682;text-decoration: underline;font-weig=
+ht: bold !important;background: none !important;background-color: none !imp=
+ortant;color: #006682;text-decoration: underline;font-weight: bold !importa=
+nt;background: none !important;background-color: none !important">Investiga=
+ting the Feasibility of Conducting Webcam-Based Eye-Tracking Studies in Cod=
+e Comprehension</a></li><li style=3D"font-family: Arial, Helvetica, sans-se=
+rif;font-size: 18px;color: #333 !important;font-family: Arial, Helvetica, s=
+ans-serif;font-size: 18px;color: #333 !important"><a data-type=3D"url" href=
+=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e=
+2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fw2hv3rb&amp;data=3D05%7C02%7Cbennett.=
+landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4=
+ab3b45067fa80faecad%7C0%7C0%7C639076422157127670%7CUnknown%7CTWFpbGZsb3d8ey=
+JFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsI=
+ldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D4%2BeNoAxKH8w0QLNHvJ0BHR1C5tCNVtUK=
+0z2Zcvi4BLc%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wi=
+qowm/w6syclcc/w2hv3rb" style=3D"font-weight: normal;font-weight: normal;col=
+or: #006682;text-decoration: underline;font-weight: bold !important;backgro=
+und: none !important;background-color: none !important;color: #006682;text-=
+decoration: underline;font-weight: bold !important;background: none !import=
+ant;background-color: none !important;color: #006682;text-decoration: under=
+line;font-weight: bold !important;background: none !important;background-co=
+lor: none !important;color: #006682;text-decoration: underline;font-weight:=
+ bold !important;background: none !important;background-color: none !import=
+ant">Evaluating the association of apolipoprotein E genotype and cognitive =
+resilience in SuperAgers</a></li><li style=3D"font-family: Arial, Helvetica=
+, sans-serif;font-size: 18px;color: #333 !important;font-family: Arial, Hel=
+vetica, sans-serif;font-size: 18px;color: #333 !important"><a data-type=3D"=
+url" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A=
+%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fcviv3rb&amp;data=3D05%7C02%7=
+Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a=
+7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422157154065%7CUnknown%7CTWFpb=
+GZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoi=
+TWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D1xSv38HpUa0CWdeExZ6Ha9w9F=
+yFHYBZ4nMshEbCAwaI%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/c=
+lick/wiqowm/w6syclcc/cviv3rb" style=3D"font-weight: normal;font-weight: nor=
+mal;color: #006682;text-decoration: underline;font-weight: bold !important;=
+background: none !important;background-color: none !important;color: #00668=
+2;text-decoration: underline;font-weight: bold !important;background: none =
+!important;background-color: none !important;color: #006682;text-decoration=
+: underline;font-weight: bold !important;background: none !important;backgr=
+ound-color: none !important;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important">Stellar Library of Differential Emission Measures and Extreme U=
+ltraviolet Spectra: Dwarf Stars Observed by the Extreme Ultraviolet Explore=
+r</a></li><li style=3D"font-family: Arial, Helvetica, sans-serif;font-size:=
+ 18px;color: #333 !important;font-family: Arial, Helvetica, sans-serif;font=
+-size: 18px;color: #333 !important"><a data-type=3D"url" href=3D"https://na=
+m04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclic=
+k%2Fwiqowm%2Fw6syclcc%2Fsnjv3rb&amp;data=3D05%7C02%7Cbennett.landman%40vand=
+erbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80f=
+aecad%7C0%7C0%7C639076422157181743%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGki=
+OnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3=
+D%7C0%7C%7C%7C&amp;sdata=3Dna16gGl5JwWhlooH1S5a9K5m6bi29tke1r3%2Fw01uhIg%3D=
+&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/=
+snjv3rb" style=3D"font-weight: normal;font-weight: normal;color: #006682;te=
+xt-decoration: underline;font-weight: bold !important;background: none !imp=
+ortant;background-color: none !important;color: #006682;text-decoration: un=
+derline;font-weight: bold !important;background: none !important;background=
+-color: none !important;color: #006682;text-decoration: underline;font-weig=
+ht: bold !important;background: none !important;background-color: none !imp=
+ortant;color: #006682;text-decoration: underline;font-weight: bold !importa=
+nt;background: none !important;background-color: none !important">Integrati=
+on of Data Science Modules Across Interdisciplinary Courses at Multiple Ins=
+titutions: Analysis of Student and Faculty Perspectives</a></li><li style=
+=3D"font-family: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !=
+important;font-family: Arial, Helvetica, sans-serif;font-size: 18px;color: =
+#333 !important"><a data-type=3D"url" href=3D"https://nam04.safelinks.prote=
+ction.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6sycl=
+cc%2F8fkv3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10f=
+d818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639=
+076422157218141%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjA=
+uMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;=
+sdata=3DKbY3BSRXa1MYhihzSpm4lHhcdA0I13ZPTxopo9qa5Xo%3D&amp;reserved=3D0" or=
+iginalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/8fkv3rb" style=3D"fon=
+t-weight: normal;font-weight: normal;color: #006682;text-decoration: underl=
+ine;font-weight: bold !important;background: none !important;background-col=
+or: none !important;color: #006682;text-decoration: underline;font-weight: =
+bold !important;background: none !important;background-color: none !importa=
+nt;color: #006682;text-decoration: underline;font-weight: bold !important;b=
+ackground: none !important;background-color: none !important;color: #006682=
+;text-decoration: underline;font-weight: bold !important;background: none !=
+important;background-color: none !important">Demystifying the Power of Larg=
+e Language Models in Graph Structure Generation</a></li><li style=3D"font-f=
+amily: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !important;=
+font-family: Arial, Helvetica, sans-serif;font-size: 18px;color: #333 !impo=
+rtant"><a data-type=3D"url" href=3D"https://nam04.safelinks.protection.outl=
+ook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fo8kv3=
+rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d24810=
+56c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C6390764221572=
+52225%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsI=
+lAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Dt8=
+V4ZVeg7qc0H7O5TMknuuFMw9FYEROThtsi2aBqXVg%3D&amp;reserved=3D0" originalsrc=
+=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/o8kv3rb" style=3D"font-weight:=
+ normal;font-weight: normal;color: #006682;text-decoration: underline;font-=
+weight: bold !important;background: none !important;background-color: none =
+!important;color: #006682;text-decoration: underline;font-weight: bold !imp=
+ortant;background: none !important;background-color: none !important;color:=
+ #006682;text-decoration: underline;font-weight: bold !important;background=
+: none !important;background-color: none !important;color: #006682;text-dec=
+oration: underline;font-weight: bold !important;background: none !important=
+;background-color: none !important">Innovation in rigid bronchoscopy=E2=80=
+=94past, present, and future</a><br></li></ul> </div>
+</td> </tr> </tbody></table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_nzmxaevl" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td style=3D"padding-bot=
+tom:5px"></td> </tr> <tr> <td class=3D"e2ma-wrapper" style=3D"padding-right=
+: 5px;padding-bottom: 5px;padding-left: 5px" valign=3D"top"> <table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Hel=
+vetica, sans-serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=
+=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: transparent" v=
+align=3D"top"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"font-family: Arial, Helvetica, sans-serif;font-size: 12px"> <tbody><tr=
+><td valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 12px"><tbody=
+><tr> <td class=3D"e2ma-image-td" style=3D"text-align: center; padding: 10p=
+x 10px 10px 10px; " valign=3D"top"> <img alt=3D"" border=3D"0" height=3D"14=
+8" src=3D"https://d31hzlhk6di2h5.cloudfront.net/20260225/bb/ff/e9/52/022841=
+57f1a17d6eebed9d1c_1140x296.png" style=3D"display: block" width=3D"570"> </=
+td> </tr></tbody></table></td></tr> </tbody></table> </td> </tr> </tbody></=
+table> </td> </tr> </tbody></table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_ubkwwhkh" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td style=3D"padding-bottom:10px"></td>
+</tr>
+<tr>
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 10px;padding-bottom: 10p=
+x;padding-left: 10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil=
+y: Arial, Helvetica, sans-serif;font-size: 12px" width=3D"100%">
+<tbody><tr>
+<td class=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: trans=
+parent">
+<div style=3D"border-bottom: #ccc solid 2px">
+<img border=3D"0" height=3D"1" src=3D"https://images.e2ma.net/images/spacer=
+.gif" style=3D"display:block" width=3D"1">
+</div>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td></tr></tbody></table></div>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-row-r=
+egion-content e2ma-section" style=3D"font-family: Arial, Helvetica, sans-se=
+rif;font-size: 12px" width=3D"100%"><tbody><tr><td class=3D"e2ma-layout-col=
+umn-content">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block=
+-outer" id=3D"block_duloptzf" style=3D"font-family: Arial, Helvetica, sans-=
+serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td style=3D"padding-bot=
+tom:5px"></td> </tr> <tr> <td class=3D"e2ma-wrapper" style=3D"padding-right=
+: 5px;padding-bottom: 5px;padding-left: 5px" valign=3D"top"> <table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Arial, Hel=
+vetica, sans-serif;font-size: 12px" width=3D"100%"> <tbody><tr> <td class=
+=3D"e2ma-holder" style=3D"padding: 0 0 0 0;background-color: transparent" v=
+align=3D"top"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"font-family: Arial, Helvetica, sans-serif;font-size: 12px"> <tbody><tr=
+><td valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 12px"><tbody=
+><tr> <td class=3D"e2ma-image-td" style=3D"text-align: center; padding: 10p=
+x 120px 10px 120px; " valign=3D"top"> <a href=3D"https://nam04.safelinks.pr=
+otection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6s=
+yclcc%2F40lv3rb&amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c=
+10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C=
+639076422157285342%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIw=
+LjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&a=
+mp;sdata=3DrFX%2F4SC3SUK2p%2BtewimcVDKxV9KQ8%2BxD9klIisIZOq0%3D&amp;reserve=
+d=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6syclcc/40lv3rb" sty=
+le=3D"font-weight: normal;font-weight: normal;color: #006682;text-decoratio=
+n: underline;font-weight: bold !important;background: none !important;backg=
+round-color: none !important;color: #006682;text-decoration: underline;font=
+-weight: bold !important;background: none !important;background-color: none=
+ !important;color: #006682;text-decoration: underline;font-weight: bold !im=
+portant;background: none !important;background-color: none !important;color=
+: #006682;text-decoration: underline;font-weight: bold !important;backgroun=
+d: none !important;background-color: none !important" target=3D"_blank"> <i=
+mg alt=3D"Vanderbilt University | Vanderbilt Lab for Immersive AI Translati=
+on" border=3D"0" height=3D"105" src=3D"https://d31hzlhk6di2h5.cloudfront.ne=
+t/20260225/7e/c1/d8/c6/5e81dde97054d792b0de8f61_700x210.png" style=3D"displ=
+ay: block" width=3D"350"> </a> </td> </tr></tbody></table></td></tr> </tbod=
+y></table> </td> </tr> </tbody></table> </td> </tr> </tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- /WYSIWYG IS HERE -->
+<!-- FOOTER IS HERE -->
+<tr>
+<td align=3D"center" style=3D"">
+<div class=3D"ff-max-width" style=3D"width:100%;max-width: 600px; height:au=
+to" width=3D"600">
+<!-- EDITABLE ADDRESS AREA HERE -->
+</div>
+</td></tr><tr>
+<td align=3D"center" class=3D"e2ma-design-option-footer" data-e2ma-styles=
+=3D"background" style=3D"border-top: 2px solid rgb(51, 51, 51);background-c=
+olor: transparent">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"font-family: Arial, Helvetica, sans-serif;font-size: 12px" widt=
+h=3D"100%">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding:10px;text-align: center;color: #33333=
+3; font-size: 12px; text-align: center; font-family:Arial, sans-serif; line=
+-height: 16px; vertical-align: top">
+<div class=3D"e2ma-tag-outer">
+<div class=3D"e2ma-p-div" style=3D"font-size: inherit"><span class=3D"e2ma-=
+style" style=3D"font-size: 8px; color: rgb(0, 102, 130)"><a data-name=3D"va=
+liant@vanderbilt.edu" data-type=3D"email" href=3D"mailto:valiant@vanderbilt=
+.edu" style=3D"font-weight: normal;font-weight: normal;color: rgb(0, 102, 1=
+30)">valiant@vanderbilt.edu</a> | <a data-name=3D"https://vanderbilt.edu/va=
+liant" data-type=3D"url" href=3D"https://nam04.safelinks.protection.outlook=
+.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fktmv3rb&=
+amp;data=3D05%7C02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c=
+508de749eb459%7Cba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C6390764221573089=
+96%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAi=
+OiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DC0BRi=
+GEBcx3h4EQRnJCX7Yso3Tt3gkfDxUZWeIbzTvE%3D&amp;reserved=3D0" originalsrc=3D"=
+https://t.e2ma.net/click/wiqowm/w6syclcc/ktmv3rb" style=3D"font-weight: nor=
+mal;font-weight: normal;color: rgb(0, 102, 130)">https://vanderbilt.edu/val=
+iant</a> | <a data-name=3D"@VandyValiant" data-type=3D"url" href=3D"https:/=
+/nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Fc=
+lick%2Fwiqowm%2Fw6syclcc%2F0lnv3rb&amp;data=3D05%7C02%7Cbennett.landman%40v=
+anderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be4ab3b45067fa=
+80faecad%7C0%7C0%7C639076422157331512%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hc=
+GkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3=
+D%3D%7C0%7C%7C%7C&amp;sdata=3D5JS%2FU9FmZZF8UlmIOEDFAbbpNKnI5Fx9H%2BTKz6J%2=
+B6HQ%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/click/wiqowm/w6=
+syclcc/0lnv3rb" style=3D"font-weight: normal;font-weight: normal;color: rgb=
+(0, 102, 130)">@VandyValiant</a>&nbsp;| <a data-name=3D"LinkedIN" data-type=
+=3D"url" href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttp=
+s%3A%2F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fgeov3rb&amp;data=3D05%7C=
+02%7Cbennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7C=
+ba5a7f39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422157359637%7CUnknown%7CT=
+WFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFO=
+IjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DHPr5ZkVX2jYwZwXkRSmOw=
+TXDQlaFPAoBt5jDOvEhZ7s%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.n=
+et/click/wiqowm/w6syclcc/geov3rb" style=3D"font-weight: normal;font-weight:=
+ normal;color: rgb(0, 102, 130)">LinkedIN</a></span></div>
+</div>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"padding:10px">
+<div class=3D"e2ma-p-div" style=3D"color:#333333; text-align:center; line-h=
+eight:16px; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, ser=
+if">
+<a href=3D"https://nam04.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Ft.e2ma.net%2Fclick%2Fwiqowm%2Fw6syclcc%2Fw6ov3rb&amp;data=3D05%7C02%7Cb=
+ennett.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f=
+39e3be4ab3b45067fa80faecad%7C0%7C0%7C639076422157393686%7CUnknown%7CTWFpbGZ=
+sb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTW=
+FpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DHGEjPyMe4rv9%2F4GTX5ZdiBhfn=
+L82Y04o2jNcg0LALCU%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/c=
+lick/wiqowm/w6syclcc/w6ov3rb" style=3D"font-weight: normal;font-weight: nor=
+mal;text-align:center; color:#333333;font-size:12px">Manage your email pref=
+erences</a> &nbsp; | &nbsp; <a href=3D"https://nam04.safelinks.protection.o=
+utlook.com/?url=3Dhttps%3A%2F%2Ft.e2ma.net%2Foptout%2Fwiqowm%2Fw6syclcc%3Fs=
+%3DARpGaQsYKz5WxRrQHl4tGfU7-NNKMlUqMxFeEwY1618&amp;data=3D05%7C02%7Cbennett=
+.landman%40vanderbilt.edu%7C71c10fd818d2481056c508de749eb459%7Cba5a7f39e3be=
+4ab3b45067fa80faecad%7C0%7C0%7C639076422157427983%7CUnknown%7CTWFpbGZsb3d8e=
+yJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIs=
+IldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Dy8McRPXiJMmJ0syLZuPKXfzUPfrVP%2B9=
+YoYzT2k6xXtw%3D&amp;reserved=3D0" originalsrc=3D"https://t.e2ma.net/optout/=
+wiqowm/w6syclcc?s=3DARpGaQsYKz5WxRrQHl4tGfU7-NNKMlUqMxFeEwY1618" style=3D"f=
+ont-weight: normal;font-weight: normal;color:#333333;font-size: 12px">Unsub=
+scribe from all</a>
+</div>
+<div class=3D"e2ma-p-div" style=3D"color: #333333; font-size: 12px; text-al=
+ign: center; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, se=
+rif; line-height: 16px; vertical-align: top; Margin: 20px 0">
+&quot;Vanderbilt&quot; and the Vanderbilt logo are registered trademarks an=
+d service marks of Vanderbilt University.
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- /EDITABLE ADDRESS AREA HERE -->
+<!-- /FOOTER IS HERE -->
+</tbody>
+</table>
+</td>
+</tr>
+<!-- TRACKING CODE HERE -->
+<tr>
+<td align=3D"left" style=3D"line-height:0px; font-size:0px" valign=3D"top">
+<div style=3D"line-height:0px; font-size:0px"><img src=3D"https://t.e2ma.ne=
+t/track/wiqowm/w6syclcc" width=3D"1" height=3D"1"></div>
+</td>
+</tr>
+<!-- /TRACKING CODE HERE -->
+</tbody>
+</table>
+</div>
+</body></html>=
+
+--==177204541048998==--
