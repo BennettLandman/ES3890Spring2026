@@ -16,13 +16,13 @@ The podcast should feature an engaging, conversational format (for example, two 
 | Feature / Capability                                                                                                                 | Difficulty | Risk     |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ---------- | -------- |
 | ~~#6 GUI (graphical) / TUI (text) / BUI (“bennett”) interface for interaction~~                                                   | ~~3–5~~  | 1        |
-| #6 Data ingestion                                                                                                                    | 2          | 2        |
-| #2[Generate an outline](https://github.com/BennettLandman/ES3890Spring2026/blob/main/Tutorials/MakeLLMOutline.md)                       | 2          | 3        |
-| #4[ Identify tags / theme](https://github.com/BennettLandman/ES3890Spring2026/blob/main/Tutorials/MakeTagThemeResults.md)              | 2          | 3        |
-| #3[Set up a conversational structure](https://github.com/BennettLandman/ES3890Spring2026/blob/main/scripts/makeScript.py)               | 3          | 4        |
+| #6 [Data ingestion](./Tutorials/ExampleMDNewsletter.md)                                                                                                                    | 2          | 2        |
+| #2 [Generate an outline](https://github.com/BennettLandman/ES3890Spring2026/blob/main/Tutorials/MakeLLMOutline.md)                       | 2          | 3        |
+| #4 [Identify tags / theme](https://github.com/BennettLandman/ES3890Spring2026/blob/main/Tutorials/MakeTagThemeResults.md)              | 2          | 3        |
+| #3 [Set up a conversational structure](https://github.com/BennettLandman/ES3890Spring2026/blob/main/scripts/makeScript.py)               | 3          | 4        |
 | Select voices                                                                                                                        | 5          | 5        |
-| #1[Text-to-voice generation (two voices)](https://github.com/BennettLandman/ES3890Spring2026/blob/main/Tutorials/VibeVoice-Tutorial.md) | 4          | 5        |
-| #5[Stitch audio segments together](./Tutorials/AudioMerge.md)                                                                           | 4          | 3        |
+| #1 [Text-to-voice generation (two voices)](https://github.com/BennettLandman/ES3890Spring2026/blob/main/Tutorials/VibeVoice-Tutorial.md) | 4          | 5        |
+| #5 [Stitch audio segments together](./Tutorials/AudioMerge.md)                                                                           | 4          | 3        |
 | Add music                                                                                                                            | 5          | 5        |
 | Publish / distribute                                                                                                                 | 4          | 2        |
 | ~~Ads~~                                                                                                                             | ~~1~~     | ~~4~~   |
